@@ -1,6 +1,6 @@
 [[Binutils]]
 arch = "x86_64"
-git-tree-sha1 = "8aeeff237e3b56789b0844bf1cb693829bb1bc5a"
+git-tree-sha1 = "012d97b9afb6e223382d07c21a38c9342c977171"
 libc = "musl"
 os = "linux"
 target_arch = "aarch64"
@@ -8,11 +8,11 @@ target_libc = "glibc"
 target_os = "linux"
 
     [[Binutils.download]]
-    sha256 = "75e843c108fcec869ace085532a9d27307096c41d8394160a35d2d37bbf8e92a"
-    url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.24.0+0/Binutils.v2.24.0.x86_64-linux-musl-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
+    sha256 = "cd0d891e38a5c3c05d3efd2421525a5b22f9289fb587b42d7bd0a5f2102a0760"
+    url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.24.0+1/Binutils.v2.24.0.x86_64-linux-musl-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
 [[Binutils]]
 arch = "x86_64"
-git-tree-sha1 = "79f7c40701a22e80c508c6d2967f6deaf9d364df"
+git-tree-sha1 = "bc8e15e3200af4c1d6a011412950cbb05b919379"
 libc = "musl"
 os = "linux"
 target_arch = "i686"
@@ -20,11 +20,11 @@ target_libc = "glibc"
 target_os = "linux"
 
     [[Binutils.download]]
-    sha256 = "c9eb69f9de60c01a4030c35f6d68b2b4b7fcfa13a71b38766aab5e2cdeecc710"
-    url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.24.0+0/Binutils.v2.24.0.x86_64-linux-musl-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
+    sha256 = "e1c253747eb7c0c6bba1799cc8238830d087a88b358275799e35d545a4d631f9"
+    url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.24.0+1/Binutils.v2.24.0.x86_64-linux-musl-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
 [[Binutils]]
 arch = "x86_64"
-git-tree-sha1 = "a02e1859043af9ebdfb5de1407cfa8c087c4dd76"
+git-tree-sha1 = "2a7d81def9445bb2a64861b783d75c682e034e97"
 libc = "musl"
 os = "linux"
 target_arch = "powerpc64le"
@@ -32,11 +32,11 @@ target_libc = "glibc"
 target_os = "linux"
 
     [[Binutils.download]]
-    sha256 = "a96d1d4b59d27023f4318a7dca90d06ed8be27f3988fbaf6fb5133b8b788a031"
-    url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.24.0+0/Binutils.v2.24.0.x86_64-linux-musl-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
+    sha256 = "b005de38ff7b852e81a02ba0fea1924a3038e525fd14c5c7e100c20c0d457cad"
+    url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.24.0+1/Binutils.v2.24.0.x86_64-linux-musl-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
 [[Binutils]]
 arch = "x86_64"
-git-tree-sha1 = "92704521d20a0d6aa8d3031131d00e2372627b7e"
+git-tree-sha1 = "7de8229dc9711ad2f973eed25a9666d1dded87eb"
 libc = "musl"
 os = "linux"
 target_arch = "x86_64"
@@ -44,11 +44,11 @@ target_libc = "glibc"
 target_os = "linux"
 
     [[Binutils.download]]
-    sha256 = "bccbbec7e772cd1faae202c03b27869ec517c49df8516665ee50944ab2d87840"
-    url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.24.0+0/Binutils.v2.24.0.x86_64-linux-musl-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+    sha256 = "6163a8e87cce61652c61adaca2a6cd969d8816640d24e0aa07fc792816562bff"
+    url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.24.0+1/Binutils.v2.24.0.x86_64-linux-musl-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
 [[Binutils]]
 arch = "x86_64"
-git-tree-sha1 = "de41bbb64aaea90300dc7b388359a57639cdc98f"
+git-tree-sha1 = "b9d6e42066181879926a41d98f4289e9a4d7c244"
 libc = "musl"
 os = "linux"
 target_arch = "armv6l"
@@ -57,11 +57,11 @@ target_libc = "glibc"
 target_os = "linux"
 
     [[Binutils.download]]
-    sha256 = "b3b2465d2623dc09efee05296d6542c3ec6b7531c82edc9b2aeaf8563a08e05f"
-    url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.24.0+0/Binutils.v2.24.0.x86_64-linux-musl-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
+    sha256 = "cdcc5e7026ff96c54ce11d6e5dff22f7081a0dd48f42130e5041d1091ee9f77b"
+    url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.24.0+1/Binutils.v2.24.0.x86_64-linux-musl-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
 [[Binutils]]
 arch = "x86_64"
-git-tree-sha1 = "2a516d5df119f4dbbc040acecc320020313357e8"
+git-tree-sha1 = "18dca68a37d0464149340a16bced73c181dd0f69"
 libc = "musl"
 os = "linux"
 target_arch = "armv7l"
@@ -70,11 +70,11 @@ target_libc = "glibc"
 target_os = "linux"
 
     [[Binutils.download]]
-    sha256 = "3164fec57bf0ea1bf3434b06364aca4c0e90c57c5a55b2837e4623ed9f17269e"
-    url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.24.0+0/Binutils.v2.24.0.x86_64-linux-musl-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+    sha256 = "54a581c313b680f4c6d102b4b318c98fddaf661e90c07128c93cc880c4d57694"
+    url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.24.0+1/Binutils.v2.24.0.x86_64-linux-musl-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
 [[Binutils]]
 arch = "x86_64"
-git-tree-sha1 = "642ea0e1a573452ac742a76ecd7ffa6eaa424c01"
+git-tree-sha1 = "35407d9dec22a0dcf2ede3f756feef1e9ad1493d"
 libc = "musl"
 os = "linux"
 target_arch = "aarch64"
@@ -82,11 +82,11 @@ target_libc = "musl"
 target_os = "linux"
 
     [[Binutils.download]]
-    sha256 = "700c560fd54601a550a8d7e8a61381dddcc1560cc479a7c1dc62f07f030f6aff"
-    url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.24.0+0/Binutils.v2.24.0.x86_64-linux-musl-target_libc+musl-target_os+linux-target_arch+aarch64.tar.gz"
+    sha256 = "3a216f291836c44c0203c7a839b36cfb1099200da1c954da79e976fcb0b88089"
+    url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.24.0+1/Binutils.v2.24.0.x86_64-linux-musl-target_libc+musl-target_os+linux-target_arch+aarch64.tar.gz"
 [[Binutils]]
 arch = "x86_64"
-git-tree-sha1 = "31eeea905253328ca5eadf9b259335cd0e60554d"
+git-tree-sha1 = "46ad76b866d8b08c342e9b72108c3d29483ed7b9"
 libc = "musl"
 os = "linux"
 target_arch = "i686"
@@ -94,11 +94,11 @@ target_libc = "musl"
 target_os = "linux"
 
     [[Binutils.download]]
-    sha256 = "d17fd5d4f0433ea92da8dfadd0a9775b9851f7b1188cbdd5f5b3a94d1bc69c26"
-    url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.24.0+0/Binutils.v2.24.0.x86_64-linux-musl-target_libc+musl-target_os+linux-target_arch+i686.tar.gz"
+    sha256 = "6b0e1500f85cf740166aedb3ed7f193fae7dfe523c87f040e9a191efb17ad6a8"
+    url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.24.0+1/Binutils.v2.24.0.x86_64-linux-musl-target_libc+musl-target_os+linux-target_arch+i686.tar.gz"
 [[Binutils]]
 arch = "x86_64"
-git-tree-sha1 = "be533d1ce3c90c15b581714978e68d8bfa51a4cd"
+git-tree-sha1 = "3defa86c9afc20949e7e359f8993ca98f60b724b"
 libc = "musl"
 os = "linux"
 target_arch = "x86_64"
@@ -106,11 +106,11 @@ target_libc = "musl"
 target_os = "linux"
 
     [[Binutils.download]]
-    sha256 = "a88ef68eff1cb7be94b9022380e6608430caea27035f7129b1f2783bfb2757bd"
-    url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.24.0+0/Binutils.v2.24.0.x86_64-linux-musl-target_libc+musl-target_os+linux-target_arch+x86_64.tar.gz"
+    sha256 = "bd78b37ec71acf475f6888dff8d030207bc636053626524bc4b88cf1f5d29861"
+    url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.24.0+1/Binutils.v2.24.0.x86_64-linux-musl-target_libc+musl-target_os+linux-target_arch+x86_64.tar.gz"
 [[Binutils]]
 arch = "x86_64"
-git-tree-sha1 = "e6771e8f6dd422acb6a4008c246406b8959eb48f"
+git-tree-sha1 = "e854ea50ab5af7d60753f3d7842c30fd6e17478e"
 libc = "musl"
 os = "linux"
 target_arch = "armv6l"
@@ -119,11 +119,11 @@ target_libc = "musl"
 target_os = "linux"
 
     [[Binutils.download]]
-    sha256 = "8ad7606bafa3cb911ba397f0ea25b90047e365ee5510e1234eb09d49b5cf9a25"
-    url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.24.0+0/Binutils.v2.24.0.x86_64-linux-musl-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
+    sha256 = "dc226fd6858de730610e12bb1fa8aa9eb143abe7c88e07bcec8a9e628c918de2"
+    url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.24.0+1/Binutils.v2.24.0.x86_64-linux-musl-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
 [[Binutils]]
 arch = "x86_64"
-git-tree-sha1 = "61710712ebd0dc11f1d7025920fac57eac0c39ad"
+git-tree-sha1 = "25c8096d7bdbf66a39aff2275903d1ffc22bf36c"
 libc = "musl"
 os = "linux"
 target_arch = "armv7l"
@@ -132,38 +132,38 @@ target_libc = "musl"
 target_os = "linux"
 
     [[Binutils.download]]
-    sha256 = "c9816ac1c504f7a2e57ca6e869809f5613a5f946965c35cae8dabccd81a0af41"
-    url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.24.0+0/Binutils.v2.24.0.x86_64-linux-musl-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+    sha256 = "f2e7fd1b49e0867f2f8121b26d3b140db5d1b7cef3c53eb9ce64750d7531bf1e"
+    url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.24.0+1/Binutils.v2.24.0.x86_64-linux-musl-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
 [[Binutils]]
 arch = "x86_64"
-git-tree-sha1 = "aebc42d5a412e5834695d6a41489176a03c455ce"
+git-tree-sha1 = "4590dc7dff29b63bdd94b5f85f5a0bbc54315dfe"
 libc = "musl"
 os = "linux"
 target_arch = "x86_64"
 target_os = "freebsd"
 
     [[Binutils.download]]
-    sha256 = "b16d127d2259fa5ca6d4d2b61a305344e581339ff996482c790b475dc2653346"
-    url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.24.0+0/Binutils.v2.24.0.x86_64-linux-musl-target_os+freebsd-target_arch+x86_64.tar.gz"
+    sha256 = "38012fc5bc7127f3d0d53a8c561ebbe49455ded5b309737cc01a0e0088af64ea"
+    url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.24.0+1/Binutils.v2.24.0.x86_64-linux-musl-target_os+freebsd-target_arch+x86_64.tar.gz"
 [[Binutils]]
 arch = "x86_64"
-git-tree-sha1 = "1fb4b91f7bf57528dc8109b1f0a752f0aa856035"
+git-tree-sha1 = "387e4898c0855b995a222bd73c0304074c98e131"
 libc = "musl"
 os = "linux"
 target_arch = "i686"
 target_os = "windows"
 
     [[Binutils.download]]
-    sha256 = "d0aca1e64158eb1ba7567d8fb8f27f31fc21e8676a19d8f0308ea45279b6977e"
-    url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.24.0+0/Binutils.v2.24.0.x86_64-linux-musl-target_os+windows-target_arch+i686.tar.gz"
+    sha256 = "801389fa73e225884dcd145af992cbbe5a75242b3ff525f484de1be6fcfaf66c"
+    url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.24.0+1/Binutils.v2.24.0.x86_64-linux-musl-target_os+windows-target_arch+i686.tar.gz"
 [[Binutils]]
 arch = "x86_64"
-git-tree-sha1 = "dee7a9434b95804cb9c52d97a98f6a8703136ea6"
+git-tree-sha1 = "3ea8e7198d77dc0317075606f73a26dbed10e64e"
 libc = "musl"
 os = "linux"
 target_arch = "x86_64"
 target_os = "windows"
 
     [[Binutils.download]]
-    sha256 = "c196175ab874fb741f2d5638ab547e38762d302f7b3b4e960e0cf232ef187431"
-    url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.24.0+0/Binutils.v2.24.0.x86_64-linux-musl-target_os+windows-target_arch+x86_64.tar.gz"
+    sha256 = "7e7201106e0695e83e30621f99a4ca516a7ffa7a61feff5b3896f48c94ffbad5"
+    url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.24.0+1/Binutils.v2.24.0.x86_64-linux-musl-target_os+windows-target_arch+x86_64.tar.gz"
