@@ -1,0 +1,1544 @@
+name = "Binutils"
+version = "2.41.2"
+julia_compat = "1.6"
+platform_augmentation_code = ""
+
+[[builds]]
+name = "Binutils"
+lazy = "false"
+src_version = "2.41.0"
+platform = "aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64"
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    compat = "*"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:36845045c162f71e09533efc54580b8a53c1f00e"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:a075bdada1eb4080d90b51002480b4233cbb0db90a7f3b8a33b8856b5adc281a"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-build_log-v2.41.2-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:e9b20c1f443964367d2805ec8b71332469ed8fba"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:9cc83c438b1950c3986e8792251c0498f7bc897a6d2d942309762940dd7a3d8c"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-extract_log-v2.41.2-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+
+    [[builds.products]]
+    name = "ar"
+    type = "executable"
+    path = "bin/x86_64-linux-gnu-ar"
+    [[builds.products]]
+    name = "as"
+    type = "executable"
+    path = "bin/x86_64-linux-gnu-as"
+    [[builds.products]]
+    name = "ld"
+    type = "executable"
+    path = "bin/x86_64-linux-gnu-ld"
+    [[builds.products]]
+    name = "nm"
+    type = "executable"
+    path = "bin/x86_64-linux-gnu-nm"
+    [[builds.products]]
+    name = "objcopy"
+    type = "executable"
+    path = "bin/x86_64-linux-gnu-objcopy"
+    [[builds.products]]
+    name = "objdump"
+    type = "executable"
+    path = "bin/x86_64-linux-gnu-objdump"
+    [[builds.products]]
+    name = "ranlib"
+    type = "executable"
+    path = "bin/x86_64-linux-gnu-ranlib"
+    [[builds.products]]
+    name = "readelf"
+    type = "executable"
+    path = "bin/x86_64-linux-gnu-readelf"
+    [[builds.products]]
+    name = "strings"
+    type = "executable"
+    path = "bin/x86_64-linux-gnu-strings"
+    [[builds.products]]
+    name = "binutils_strip"
+    type = "executable"
+    path = "bin/x86_64-linux-gnu-strip"
+
+    [[builds.sources]]
+    treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
+    url = "https://ftp.gnu.org/gnu/binutils/binutils-2.41.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:ce6403ad0623bc07ad1c85686064baab86c1750b"
+    url = "/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0"
+
+    [builds.artifact]
+    treehash = "sha1:1d9e930eb8843ff51f7cc1e1c5fc96e671d5aa81"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:9a3980df4a7ffcf94c46f5fd75d60772fb583f3a42d08fbe9ab70bd69cb97c58"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-v2.41.2-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+[[builds]]
+name = "Binutils"
+lazy = "false"
+src_version = "2.41.0"
+platform = "x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686"
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    compat = "*"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:c6d4047b3314bb2ca33d69def51142abcfcfd184"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:7e8e174caa68cfd38a588908bd3b4decb30694d319407be77c6d7e53bcbc70e8"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-build_log-v2.41.2-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:8d014e846b86a6625b91806e29bfb107094ed10a"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:fee6c866dcdba0391d4522e6f632ff85ed7ddf40c31ae485c3991e97a068fb34"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-extract_log-v2.41.2-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
+
+    [[builds.products]]
+    name = "ar"
+    type = "executable"
+    path = "bin/i686-linux-gnu-ar"
+    [[builds.products]]
+    name = "as"
+    type = "executable"
+    path = "bin/i686-linux-gnu-as"
+    [[builds.products]]
+    name = "ld"
+    type = "executable"
+    path = "bin/i686-linux-gnu-ld"
+    [[builds.products]]
+    name = "nm"
+    type = "executable"
+    path = "bin/i686-linux-gnu-nm"
+    [[builds.products]]
+    name = "objcopy"
+    type = "executable"
+    path = "bin/i686-linux-gnu-objcopy"
+    [[builds.products]]
+    name = "objdump"
+    type = "executable"
+    path = "bin/i686-linux-gnu-objdump"
+    [[builds.products]]
+    name = "ranlib"
+    type = "executable"
+    path = "bin/i686-linux-gnu-ranlib"
+    [[builds.products]]
+    name = "readelf"
+    type = "executable"
+    path = "bin/i686-linux-gnu-readelf"
+    [[builds.products]]
+    name = "strings"
+    type = "executable"
+    path = "bin/i686-linux-gnu-strings"
+    [[builds.products]]
+    name = "binutils_strip"
+    type = "executable"
+    path = "bin/i686-linux-gnu-strip"
+
+    [[builds.sources]]
+    treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
+    url = "https://ftp.gnu.org/gnu/binutils/binutils-2.41.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:ce6403ad0623bc07ad1c85686064baab86c1750b"
+    url = "/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0"
+
+    [builds.artifact]
+    treehash = "sha1:2c508592570e293f34f145fed9f6dafaf39e9a06"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:80369e356408436038ccf350a93ef8e8c5c628c7e26d7c098b5445c751490bf7"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-v2.41.2-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
+[[builds]]
+name = "Binutils"
+lazy = "false"
+src_version = "2.41.0"
+platform = "aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686"
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    compat = "*"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:ff29e55ebb14dd4378736a541bd1934ac0914144"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:69d0d564286d836e436029b3316c65adb2da606f515068b1d0cbd82368ecd064"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-build_log-v2.41.2-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:267f5528d119cad1055b2b00190a9464611101da"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:03c212b88ac7d4340d20b2cb8d9c73522fe2eb1a4da0ed63196656d119aec6f4"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-extract_log-v2.41.2-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
+
+    [[builds.products]]
+    name = "ar"
+    type = "executable"
+    path = "bin/i686-linux-gnu-ar"
+    [[builds.products]]
+    name = "as"
+    type = "executable"
+    path = "bin/i686-linux-gnu-as"
+    [[builds.products]]
+    name = "ld"
+    type = "executable"
+    path = "bin/i686-linux-gnu-ld"
+    [[builds.products]]
+    name = "nm"
+    type = "executable"
+    path = "bin/i686-linux-gnu-nm"
+    [[builds.products]]
+    name = "objcopy"
+    type = "executable"
+    path = "bin/i686-linux-gnu-objcopy"
+    [[builds.products]]
+    name = "objdump"
+    type = "executable"
+    path = "bin/i686-linux-gnu-objdump"
+    [[builds.products]]
+    name = "ranlib"
+    type = "executable"
+    path = "bin/i686-linux-gnu-ranlib"
+    [[builds.products]]
+    name = "readelf"
+    type = "executable"
+    path = "bin/i686-linux-gnu-readelf"
+    [[builds.products]]
+    name = "strings"
+    type = "executable"
+    path = "bin/i686-linux-gnu-strings"
+    [[builds.products]]
+    name = "binutils_strip"
+    type = "executable"
+    path = "bin/i686-linux-gnu-strip"
+
+    [[builds.sources]]
+    treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
+    url = "https://ftp.gnu.org/gnu/binutils/binutils-2.41.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:ce6403ad0623bc07ad1c85686064baab86c1750b"
+    url = "/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0"
+
+    [builds.artifact]
+    treehash = "sha1:92f02a1fe35db5601bda8159ce9d70bc47146106"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:8435c140acdbd8cc265bf148820d0e4b73cc74d769da6aa9461deb5639905cad"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-v2.41.2-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
+[[builds]]
+name = "Binutils"
+lazy = "false"
+src_version = "2.41.0"
+platform = "x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64"
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    compat = "*"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:ef7f0dc98590e0dd33c80ea80b50f202220001a5"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:b98648bdd389a1fc12f22b47f73ba4c6cb54c90faee9e40c4f229b3f312d3725"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-build_log-v2.41.2-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:d6a09d36c213a164ebf0c5b3ad54b7dae96b5e07"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:006325e30458d698c611b8be3ea9daf9d9d3123139c4c9ab5fc9d8d706698faf"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-extract_log-v2.41.2-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
+
+    [[builds.products]]
+    name = "ar"
+    type = "executable"
+    path = "bin/aarch64-linux-gnu-ar"
+    [[builds.products]]
+    name = "as"
+    type = "executable"
+    path = "bin/aarch64-linux-gnu-as"
+    [[builds.products]]
+    name = "ld"
+    type = "executable"
+    path = "bin/aarch64-linux-gnu-ld"
+    [[builds.products]]
+    name = "nm"
+    type = "executable"
+    path = "bin/aarch64-linux-gnu-nm"
+    [[builds.products]]
+    name = "objcopy"
+    type = "executable"
+    path = "bin/aarch64-linux-gnu-objcopy"
+    [[builds.products]]
+    name = "objdump"
+    type = "executable"
+    path = "bin/aarch64-linux-gnu-objdump"
+    [[builds.products]]
+    name = "ranlib"
+    type = "executable"
+    path = "bin/aarch64-linux-gnu-ranlib"
+    [[builds.products]]
+    name = "readelf"
+    type = "executable"
+    path = "bin/aarch64-linux-gnu-readelf"
+    [[builds.products]]
+    name = "strings"
+    type = "executable"
+    path = "bin/aarch64-linux-gnu-strings"
+    [[builds.products]]
+    name = "binutils_strip"
+    type = "executable"
+    path = "bin/aarch64-linux-gnu-strip"
+
+    [[builds.sources]]
+    treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
+    url = "https://ftp.gnu.org/gnu/binutils/binutils-2.41.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:ce6403ad0623bc07ad1c85686064baab86c1750b"
+    url = "/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0"
+
+    [builds.artifact]
+    treehash = "sha1:103672addaef8338cd0025a15b5e5b1375bbc492"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:c8845b68cb02f55b3595ba7cd980adbf508b4cf1d91ad128b60ac0b229148e80"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-v2.41.2-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
+[[builds]]
+name = "Binutils"
+lazy = "false"
+src_version = "2.41.0"
+platform = "x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l"
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    compat = "*"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:454182ce996e10fdb7ad0e8bab571f48309ef34d"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:5d7ffb4a77f9b2fd55a5a50aeee685fe17655c61fad6a6833993a64a44f9f60f"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-build_log-v2.41.2-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:879864d792f95a10c866f2b6101b868e6699ec5b"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:f72518aeea4a575cba3a4276c93417b0b5cd71ff843a06cd2433baa11c60d564"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-extract_log-v2.41.2-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+
+    [[builds.products]]
+    name = "ar"
+    type = "executable"
+    path = "bin/armv7l-linux-gnueabihf-ar"
+    [[builds.products]]
+    name = "as"
+    type = "executable"
+    path = "bin/armv7l-linux-gnueabihf-as"
+    [[builds.products]]
+    name = "ld"
+    type = "executable"
+    path = "bin/armv7l-linux-gnueabihf-ld"
+    [[builds.products]]
+    name = "nm"
+    type = "executable"
+    path = "bin/armv7l-linux-gnueabihf-nm"
+    [[builds.products]]
+    name = "objcopy"
+    type = "executable"
+    path = "bin/armv7l-linux-gnueabihf-objcopy"
+    [[builds.products]]
+    name = "objdump"
+    type = "executable"
+    path = "bin/armv7l-linux-gnueabihf-objdump"
+    [[builds.products]]
+    name = "ranlib"
+    type = "executable"
+    path = "bin/armv7l-linux-gnueabihf-ranlib"
+    [[builds.products]]
+    name = "readelf"
+    type = "executable"
+    path = "bin/armv7l-linux-gnueabihf-readelf"
+    [[builds.products]]
+    name = "strings"
+    type = "executable"
+    path = "bin/armv7l-linux-gnueabihf-strings"
+    [[builds.products]]
+    name = "binutils_strip"
+    type = "executable"
+    path = "bin/armv7l-linux-gnueabihf-strip"
+
+    [[builds.sources]]
+    treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
+    url = "https://ftp.gnu.org/gnu/binutils/binutils-2.41.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:ce6403ad0623bc07ad1c85686064baab86c1750b"
+    url = "/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0"
+
+    [builds.artifact]
+    treehash = "sha1:b94b11a2dd2fcfc03c458c8b5d07ca3b346a4e84"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:c8b95d798ea39668189f888ffeda78e7bbf1eca7abb63cf1b5796dd3113911c2"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-v2.41.2-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+[[builds]]
+name = "Binutils"
+lazy = "false"
+src_version = "2.41.0"
+platform = "aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l"
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    compat = "*"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:48e3f73ff311c8ce7900bcc64ac13f21e5d3e85d"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:6fe01f7e425c28319b415cfde969c1a43cde5795b1e833d6ca9c0db06942d23c"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-build_log-v2.41.2-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:93aaa3c0d582f090837bea94a8e1a2485e14f469"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:1c4ca9a78b3e1d1447f06fc87e1f4084a9d66757ee9b7bcd53602b7860ec2db3"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-extract_log-v2.41.2-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+
+    [[builds.products]]
+    name = "ar"
+    type = "executable"
+    path = "bin/armv7l-linux-gnueabihf-ar"
+    [[builds.products]]
+    name = "as"
+    type = "executable"
+    path = "bin/armv7l-linux-gnueabihf-as"
+    [[builds.products]]
+    name = "ld"
+    type = "executable"
+    path = "bin/armv7l-linux-gnueabihf-ld"
+    [[builds.products]]
+    name = "nm"
+    type = "executable"
+    path = "bin/armv7l-linux-gnueabihf-nm"
+    [[builds.products]]
+    name = "objcopy"
+    type = "executable"
+    path = "bin/armv7l-linux-gnueabihf-objcopy"
+    [[builds.products]]
+    name = "objdump"
+    type = "executable"
+    path = "bin/armv7l-linux-gnueabihf-objdump"
+    [[builds.products]]
+    name = "ranlib"
+    type = "executable"
+    path = "bin/armv7l-linux-gnueabihf-ranlib"
+    [[builds.products]]
+    name = "readelf"
+    type = "executable"
+    path = "bin/armv7l-linux-gnueabihf-readelf"
+    [[builds.products]]
+    name = "strings"
+    type = "executable"
+    path = "bin/armv7l-linux-gnueabihf-strings"
+    [[builds.products]]
+    name = "binutils_strip"
+    type = "executable"
+    path = "bin/armv7l-linux-gnueabihf-strip"
+
+    [[builds.sources]]
+    treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
+    url = "https://ftp.gnu.org/gnu/binutils/binutils-2.41.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:ce6403ad0623bc07ad1c85686064baab86c1750b"
+    url = "/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0"
+
+    [builds.artifact]
+    treehash = "sha1:b4957d6608f871f29804472e314867f604ab32a7"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:77daeb6287a61012b26d2d7ec769c100284a03250f5b747e37e62c6585ee6573"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-v2.41.2-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+[[builds]]
+name = "Binutils"
+lazy = "false"
+src_version = "2.41.0"
+platform = "x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le"
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    compat = "*"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:3511fe091a0ffa5a0d774a4fde7367e052b9c1b0"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:3b849147e9364787d93a7191817cce7beeb7db0fb57c8c2134efda7038611968"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-build_log-v2.41.2-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:60694c4fe5df8081775338ddd77910dbeb788228"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:aec65ce31c499d48724bc5122e1634a3d14d822f2149ef81874674ba07975b68"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-extract_log-v2.41.2-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
+
+    [[builds.products]]
+    name = "ar"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-ar"
+    [[builds.products]]
+    name = "as"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-as"
+    [[builds.products]]
+    name = "ld"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-ld"
+    [[builds.products]]
+    name = "nm"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-nm"
+    [[builds.products]]
+    name = "objcopy"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-objcopy"
+    [[builds.products]]
+    name = "objdump"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-objdump"
+    [[builds.products]]
+    name = "ranlib"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-ranlib"
+    [[builds.products]]
+    name = "readelf"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-readelf"
+    [[builds.products]]
+    name = "strings"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-strings"
+    [[builds.products]]
+    name = "binutils_strip"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-strip"
+
+    [[builds.sources]]
+    treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
+    url = "https://ftp.gnu.org/gnu/binutils/binutils-2.41.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:ce6403ad0623bc07ad1c85686064baab86c1750b"
+    url = "/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0"
+
+    [builds.artifact]
+    treehash = "sha1:2a49526ee706871763e7af1848eeaec61d66f7d0"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:a457663304c39c408d502b1729d35ad967b1484f745bb1494fd76730b9eeeeb7"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-v2.41.2-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
+[[builds]]
+name = "Binutils"
+lazy = "false"
+src_version = "2.41.0"
+platform = "aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le"
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    compat = "*"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:2889feffd230e80bae9fa48fb87b80a20f029bc9"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:b0efe7ca9dbd501199d66d9cdac8de082ca44552fee0a4f6c50957610c086561"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-build_log-v2.41.2-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:f9b72299490794e21edd85a13facb8413be454e1"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:7d6e8548df1642fff20d064ac196f256c7ccc5225cc876d6008c4f386ea73a95"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-extract_log-v2.41.2-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
+
+    [[builds.products]]
+    name = "ar"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-ar"
+    [[builds.products]]
+    name = "as"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-as"
+    [[builds.products]]
+    name = "ld"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-ld"
+    [[builds.products]]
+    name = "nm"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-nm"
+    [[builds.products]]
+    name = "objcopy"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-objcopy"
+    [[builds.products]]
+    name = "objdump"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-objdump"
+    [[builds.products]]
+    name = "ranlib"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-ranlib"
+    [[builds.products]]
+    name = "readelf"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-readelf"
+    [[builds.products]]
+    name = "strings"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-strings"
+    [[builds.products]]
+    name = "binutils_strip"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-strip"
+
+    [[builds.sources]]
+    treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
+    url = "https://ftp.gnu.org/gnu/binutils/binutils-2.41.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:ce6403ad0623bc07ad1c85686064baab86c1750b"
+    url = "/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0"
+
+    [builds.artifact]
+    treehash = "sha1:dbc8ce13a95874d4b392034dc5e25515a39c1ce3"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:e67dedac242d41ffb89a890795feb6e726876acd22298c96bb66ebd80477c580"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-v2.41.2-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
+[[builds]]
+name = "Binutils"
+lazy = "false"
+src_version = "2.41.0"
+platform = "x86_64-linux-gnu-target_os+windows-target_arch+x86_64"
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    compat = "*"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:497fafc5f986b66d3cb4697a798e4c8a7264b0d7"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:3e8085ef5a551e3c08f7b68ab5c120a9207d81ecf2db47d2a07195d41ffaf27a"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-build_log-v2.41.2-x86_64-linux-gnu-target_os+windows-target_arch+x86_64.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:fef474d3ea343abb59ee19f8f7e34c534184a22d"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:2b3ee7a6ae3c953151a47f0943dfe3a6b48b0de8800bcb435df67bd499dab102"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-extract_log-v2.41.2-x86_64-linux-gnu-target_os+windows-target_arch+x86_64.tar.gz"
+
+    [[builds.products]]
+    name = "ar"
+    type = "executable"
+    path = "bin/x86_64-w64-mingw32-ar"
+    [[builds.products]]
+    name = "as"
+    type = "executable"
+    path = "bin/x86_64-w64-mingw32-as"
+    [[builds.products]]
+    name = "ld"
+    type = "executable"
+    path = "bin/x86_64-w64-mingw32-ld"
+    [[builds.products]]
+    name = "nm"
+    type = "executable"
+    path = "bin/x86_64-w64-mingw32-nm"
+    [[builds.products]]
+    name = "objcopy"
+    type = "executable"
+    path = "bin/x86_64-w64-mingw32-objcopy"
+    [[builds.products]]
+    name = "objdump"
+    type = "executable"
+    path = "bin/x86_64-w64-mingw32-objdump"
+    [[builds.products]]
+    name = "ranlib"
+    type = "executable"
+    path = "bin/x86_64-w64-mingw32-ranlib"
+    [[builds.products]]
+    name = "readelf"
+    type = "executable"
+    path = "bin/x86_64-w64-mingw32-readelf"
+    [[builds.products]]
+    name = "strings"
+    type = "executable"
+    path = "bin/x86_64-w64-mingw32-strings"
+    [[builds.products]]
+    name = "binutils_strip"
+    type = "executable"
+    path = "bin/x86_64-w64-mingw32-strip"
+
+    [[builds.sources]]
+    treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
+    url = "https://ftp.gnu.org/gnu/binutils/binutils-2.41.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:ce6403ad0623bc07ad1c85686064baab86c1750b"
+    url = "/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0"
+
+    [builds.artifact]
+    treehash = "sha1:9412d2dbbdfb4649c255cdb4154642c5477ed3d1"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:68fa51add6590843f663133d06b4316ee27b6ccac541721dc2825dd935490f8a"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-v2.41.2-x86_64-linux-gnu-target_os+windows-target_arch+x86_64.tar.gz"
+[[builds]]
+name = "Binutils"
+lazy = "false"
+src_version = "2.41.0"
+platform = "aarch64-linux-gnu-target_os+windows-target_arch+x86_64"
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    compat = "*"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:32ce7369e1bc8bbaf7324a6116a7a82ae5b7e4d1"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:009f67bf2cb3503e60fee181bc053cc1aec71a688483defa53c1f59abd183e67"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-build_log-v2.41.2-aarch64-linux-gnu-target_os+windows-target_arch+x86_64.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:c68bda57492fc59ad589adfca440f5779f555178"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:59e65fb72ee5ae9704b1c2cad1f90f38eb533c9704db2908c5a351e4a6350030"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-extract_log-v2.41.2-aarch64-linux-gnu-target_os+windows-target_arch+x86_64.tar.gz"
+
+    [[builds.products]]
+    name = "ar"
+    type = "executable"
+    path = "bin/x86_64-w64-mingw32-ar"
+    [[builds.products]]
+    name = "as"
+    type = "executable"
+    path = "bin/x86_64-w64-mingw32-as"
+    [[builds.products]]
+    name = "ld"
+    type = "executable"
+    path = "bin/x86_64-w64-mingw32-ld"
+    [[builds.products]]
+    name = "nm"
+    type = "executable"
+    path = "bin/x86_64-w64-mingw32-nm"
+    [[builds.products]]
+    name = "objcopy"
+    type = "executable"
+    path = "bin/x86_64-w64-mingw32-objcopy"
+    [[builds.products]]
+    name = "objdump"
+    type = "executable"
+    path = "bin/x86_64-w64-mingw32-objdump"
+    [[builds.products]]
+    name = "ranlib"
+    type = "executable"
+    path = "bin/x86_64-w64-mingw32-ranlib"
+    [[builds.products]]
+    name = "readelf"
+    type = "executable"
+    path = "bin/x86_64-w64-mingw32-readelf"
+    [[builds.products]]
+    name = "strings"
+    type = "executable"
+    path = "bin/x86_64-w64-mingw32-strings"
+    [[builds.products]]
+    name = "binutils_strip"
+    type = "executable"
+    path = "bin/x86_64-w64-mingw32-strip"
+
+    [[builds.sources]]
+    treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
+    url = "https://ftp.gnu.org/gnu/binutils/binutils-2.41.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:ce6403ad0623bc07ad1c85686064baab86c1750b"
+    url = "/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0"
+
+    [builds.artifact]
+    treehash = "sha1:220ca17b31f1eca428617f938df598a3ddf80556"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:4bc95e3cca96b7a73f09c3ce2da3fe254969a9a06473503deebe8542b58d3a37"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-v2.41.2-aarch64-linux-gnu-target_os+windows-target_arch+x86_64.tar.gz"
+[[builds]]
+name = "Binutils"
+lazy = "false"
+src_version = "2.41.0"
+platform = "x86_64-linux-gnu-target_os+windows-target_arch+i686"
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    compat = "*"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:6fa70655359cf70503add6ed63b91909321f3dbd"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:5897a18ace8e69fe6c5ae1c03e17127464cd19f001f0b8197f972c7459522ad6"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-build_log-v2.41.2-x86_64-linux-gnu-target_os+windows-target_arch+i686.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:fe86350a84a3e542507503d0e38aea8aeed2b096"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:0ba5f161e5d5e7c794b05208a7beb9f0161b56bfd4e5d9ab0c9e4b364d878be0"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-extract_log-v2.41.2-x86_64-linux-gnu-target_os+windows-target_arch+i686.tar.gz"
+
+    [[builds.products]]
+    name = "ar"
+    type = "executable"
+    path = "bin/i686-w64-mingw32-ar"
+    [[builds.products]]
+    name = "as"
+    type = "executable"
+    path = "bin/i686-w64-mingw32-as"
+    [[builds.products]]
+    name = "ld"
+    type = "executable"
+    path = "bin/i686-w64-mingw32-ld"
+    [[builds.products]]
+    name = "nm"
+    type = "executable"
+    path = "bin/i686-w64-mingw32-nm"
+    [[builds.products]]
+    name = "objcopy"
+    type = "executable"
+    path = "bin/i686-w64-mingw32-objcopy"
+    [[builds.products]]
+    name = "objdump"
+    type = "executable"
+    path = "bin/i686-w64-mingw32-objdump"
+    [[builds.products]]
+    name = "ranlib"
+    type = "executable"
+    path = "bin/i686-w64-mingw32-ranlib"
+    [[builds.products]]
+    name = "readelf"
+    type = "executable"
+    path = "bin/i686-w64-mingw32-readelf"
+    [[builds.products]]
+    name = "strings"
+    type = "executable"
+    path = "bin/i686-w64-mingw32-strings"
+    [[builds.products]]
+    name = "binutils_strip"
+    type = "executable"
+    path = "bin/i686-w64-mingw32-strip"
+
+    [[builds.sources]]
+    treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
+    url = "https://ftp.gnu.org/gnu/binutils/binutils-2.41.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:ce6403ad0623bc07ad1c85686064baab86c1750b"
+    url = "/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0"
+
+    [builds.artifact]
+    treehash = "sha1:6fe4647fd97a0e71697a02ca396b2a72a04c1da4"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:3036f039cbea9d34b1f2fdb59069b0e9e725826e23942e0a84deb1e62991b4e7"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-v2.41.2-x86_64-linux-gnu-target_os+windows-target_arch+i686.tar.gz"
+[[builds]]
+name = "Binutils"
+lazy = "false"
+src_version = "2.41.0"
+platform = "aarch64-linux-gnu-target_os+windows-target_arch+i686"
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    compat = "*"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:a517c572fe08bc0f69d9d3a937b0d8dcf24403a2"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:6b89d19ab136810eb4fa1d57a6aa53c3a20786e092adeb0f05a435b723c29df1"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-build_log-v2.41.2-aarch64-linux-gnu-target_os+windows-target_arch+i686.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:2dee6f3f33461729b0d74a5ad05611410e86c77d"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:eae2c971d60a65b2c7cbb5f6c6a8151876757011d2bf4f913c44dc5825d5ef5f"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-extract_log-v2.41.2-aarch64-linux-gnu-target_os+windows-target_arch+i686.tar.gz"
+
+    [[builds.products]]
+    name = "ar"
+    type = "executable"
+    path = "bin/i686-w64-mingw32-ar"
+    [[builds.products]]
+    name = "as"
+    type = "executable"
+    path = "bin/i686-w64-mingw32-as"
+    [[builds.products]]
+    name = "ld"
+    type = "executable"
+    path = "bin/i686-w64-mingw32-ld"
+    [[builds.products]]
+    name = "nm"
+    type = "executable"
+    path = "bin/i686-w64-mingw32-nm"
+    [[builds.products]]
+    name = "objcopy"
+    type = "executable"
+    path = "bin/i686-w64-mingw32-objcopy"
+    [[builds.products]]
+    name = "objdump"
+    type = "executable"
+    path = "bin/i686-w64-mingw32-objdump"
+    [[builds.products]]
+    name = "ranlib"
+    type = "executable"
+    path = "bin/i686-w64-mingw32-ranlib"
+    [[builds.products]]
+    name = "readelf"
+    type = "executable"
+    path = "bin/i686-w64-mingw32-readelf"
+    [[builds.products]]
+    name = "strings"
+    type = "executable"
+    path = "bin/i686-w64-mingw32-strings"
+    [[builds.products]]
+    name = "binutils_strip"
+    type = "executable"
+    path = "bin/i686-w64-mingw32-strip"
+
+    [[builds.sources]]
+    treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
+    url = "https://ftp.gnu.org/gnu/binutils/binutils-2.41.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:ce6403ad0623bc07ad1c85686064baab86c1750b"
+    url = "/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0"
+
+    [builds.artifact]
+    treehash = "sha1:89d11292eb97cb263450c2f333465f497272a852"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:83242c25f60354496df27b5252aa377b0ba502de4401133ec22fc56547b12db4"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-v2.41.2-aarch64-linux-gnu-target_os+windows-target_arch+i686.tar.gz"
+[[builds]]
+name = "Binutils"
+lazy = "false"
+src_version = "2.41.0"
+platform = "x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64"
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    compat = "*"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:d0c7959ba193b8096a4b282f1d31b317fc77d54c"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:53b0eaa96022d7fd8512eac1309dd80987cdfaca3c311f8634b35e55830a702e"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-build_log-v2.41.2-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:c1e94fceffdf5747e385626140683fa94171de35"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:38248c4bcbe4ca895a0b34e4cdb901d166f801581654aee918ed0d988bccc1da"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-extract_log-v2.41.2-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+
+    [[builds.products]]
+    name = "ar"
+    type = "executable"
+    path = "bin/x86_64-linux-gnu-ar"
+    [[builds.products]]
+    name = "as"
+    type = "executable"
+    path = "bin/x86_64-linux-gnu-as"
+    [[builds.products]]
+    name = "ld"
+    type = "executable"
+    path = "bin/x86_64-linux-gnu-ld"
+    [[builds.products]]
+    name = "nm"
+    type = "executable"
+    path = "bin/x86_64-linux-gnu-nm"
+    [[builds.products]]
+    name = "objcopy"
+    type = "executable"
+    path = "bin/x86_64-linux-gnu-objcopy"
+    [[builds.products]]
+    name = "objdump"
+    type = "executable"
+    path = "bin/x86_64-linux-gnu-objdump"
+    [[builds.products]]
+    name = "ranlib"
+    type = "executable"
+    path = "bin/x86_64-linux-gnu-ranlib"
+    [[builds.products]]
+    name = "readelf"
+    type = "executable"
+    path = "bin/x86_64-linux-gnu-readelf"
+    [[builds.products]]
+    name = "strings"
+    type = "executable"
+    path = "bin/x86_64-linux-gnu-strings"
+    [[builds.products]]
+    name = "binutils_strip"
+    type = "executable"
+    path = "bin/x86_64-linux-gnu-strip"
+
+    [[builds.sources]]
+    treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
+    url = "https://ftp.gnu.org/gnu/binutils/binutils-2.41.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:ce6403ad0623bc07ad1c85686064baab86c1750b"
+    url = "/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0"
+
+    [builds.artifact]
+    treehash = "sha1:53ed9472964b946d9ae16a3ebb6d1e6373320bf4"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:767f83a1fc661a1293da35fa38818f2c434d3c9d961c1f28c684dcbc18a6dc82"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-v2.41.2-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+[[builds]]
+name = "Binutils"
+lazy = "false"
+src_version = "2.41.0"
+platform = "i686-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686"
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    compat = "*"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:aa6f773aa6cbcfa68c07b0063e21d52a883f5332"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:8fc4222f964fedaa81697f4f1823cc93df6ee53abc0b14b84fffcd0ef1fae5bd"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-build_log-v2.41.2-i686-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:9bb5809a35ff70c352ca1d96097b29fb40a0cbe1"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:2e881063c4042a0d17d68ef7ee688f2ede1890c50aa4f76bb3620cfeeb15c944"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-extract_log-v2.41.2-i686-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
+
+    [[builds.products]]
+    name = "ar"
+    type = "executable"
+    path = "bin/i686-linux-gnu-ar"
+    [[builds.products]]
+    name = "as"
+    type = "executable"
+    path = "bin/i686-linux-gnu-as"
+    [[builds.products]]
+    name = "ld"
+    type = "executable"
+    path = "bin/i686-linux-gnu-ld"
+    [[builds.products]]
+    name = "nm"
+    type = "executable"
+    path = "bin/i686-linux-gnu-nm"
+    [[builds.products]]
+    name = "objcopy"
+    type = "executable"
+    path = "bin/i686-linux-gnu-objcopy"
+    [[builds.products]]
+    name = "objdump"
+    type = "executable"
+    path = "bin/i686-linux-gnu-objdump"
+    [[builds.products]]
+    name = "ranlib"
+    type = "executable"
+    path = "bin/i686-linux-gnu-ranlib"
+    [[builds.products]]
+    name = "readelf"
+    type = "executable"
+    path = "bin/i686-linux-gnu-readelf"
+    [[builds.products]]
+    name = "strings"
+    type = "executable"
+    path = "bin/i686-linux-gnu-strings"
+    [[builds.products]]
+    name = "binutils_strip"
+    type = "executable"
+    path = "bin/i686-linux-gnu-strip"
+
+    [[builds.sources]]
+    treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
+    url = "https://ftp.gnu.org/gnu/binutils/binutils-2.41.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:ce6403ad0623bc07ad1c85686064baab86c1750b"
+    url = "/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0"
+
+    [builds.artifact]
+    treehash = "sha1:3addb42e9cb3a655884171a578ef9610d891b99f"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:3cbe21cd34c6e7f241fdd2381aa8519c1c031d8758a87cf6a27d31b35f9dfaef"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-v2.41.2-i686-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
+[[builds]]
+name = "Binutils"
+lazy = "false"
+src_version = "2.41.0"
+platform = "aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64"
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    compat = "*"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:a33a34d0047d9b583b6080000c6287e50494ed37"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:b2670e86e62a2c8078744ee7f2228f3f58c204d27ba4907967f761eb9ddfc1a8"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-build_log-v2.41.2-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:13413f26b5def5340ef12f52e959eb1ae52576fe"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:12db707788aece6454c45bb12a10fbdd6068ede7e34b2e43e50c55e34e2dc1c5"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-extract_log-v2.41.2-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
+
+    [[builds.products]]
+    name = "ar"
+    type = "executable"
+    path = "bin/aarch64-linux-gnu-ar"
+    [[builds.products]]
+    name = "as"
+    type = "executable"
+    path = "bin/aarch64-linux-gnu-as"
+    [[builds.products]]
+    name = "ld"
+    type = "executable"
+    path = "bin/aarch64-linux-gnu-ld"
+    [[builds.products]]
+    name = "nm"
+    type = "executable"
+    path = "bin/aarch64-linux-gnu-nm"
+    [[builds.products]]
+    name = "objcopy"
+    type = "executable"
+    path = "bin/aarch64-linux-gnu-objcopy"
+    [[builds.products]]
+    name = "objdump"
+    type = "executable"
+    path = "bin/aarch64-linux-gnu-objdump"
+    [[builds.products]]
+    name = "ranlib"
+    type = "executable"
+    path = "bin/aarch64-linux-gnu-ranlib"
+    [[builds.products]]
+    name = "readelf"
+    type = "executable"
+    path = "bin/aarch64-linux-gnu-readelf"
+    [[builds.products]]
+    name = "strings"
+    type = "executable"
+    path = "bin/aarch64-linux-gnu-strings"
+    [[builds.products]]
+    name = "binutils_strip"
+    type = "executable"
+    path = "bin/aarch64-linux-gnu-strip"
+
+    [[builds.sources]]
+    treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
+    url = "https://ftp.gnu.org/gnu/binutils/binutils-2.41.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:ce6403ad0623bc07ad1c85686064baab86c1750b"
+    url = "/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0"
+
+    [builds.artifact]
+    treehash = "sha1:a901ebd19910269bedab66d7e3eae70498e419f8"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:1dc6e11f2366a31d0fb1e3fd06ff0425c1ffd6695fb293df8ebe4e08b04e61e8"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-v2.41.2-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
+[[builds]]
+name = "Binutils"
+lazy = "false"
+src_version = "2.41.0"
+platform = "armv7l-linux-gnueabihf-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l"
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    compat = "*"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:11fd771bdfafdf4ea01fe02ac31d71c7af80809a"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:915fcb5d363383bbebec7aa31a13f12c513b46a33e3fced8994e9e7083cf9c12"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-build_log-v2.41.2-armv7l-linux-gnueabihf-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:3b73a5dd639c4719b0416bfc428c4860ad34bbbf"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:ec6f7382976ee6b3c10a08ae4e8a65abe243c5deb3a98e351203b543997804d0"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-extract_log-v2.41.2-armv7l-linux-gnueabihf-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+
+    [[builds.products]]
+    name = "ar"
+    type = "executable"
+    path = "bin/armv7l-linux-gnueabihf-ar"
+    [[builds.products]]
+    name = "as"
+    type = "executable"
+    path = "bin/armv7l-linux-gnueabihf-as"
+    [[builds.products]]
+    name = "ld"
+    type = "executable"
+    path = "bin/armv7l-linux-gnueabihf-ld"
+    [[builds.products]]
+    name = "nm"
+    type = "executable"
+    path = "bin/armv7l-linux-gnueabihf-nm"
+    [[builds.products]]
+    name = "objcopy"
+    type = "executable"
+    path = "bin/armv7l-linux-gnueabihf-objcopy"
+    [[builds.products]]
+    name = "objdump"
+    type = "executable"
+    path = "bin/armv7l-linux-gnueabihf-objdump"
+    [[builds.products]]
+    name = "ranlib"
+    type = "executable"
+    path = "bin/armv7l-linux-gnueabihf-ranlib"
+    [[builds.products]]
+    name = "readelf"
+    type = "executable"
+    path = "bin/armv7l-linux-gnueabihf-readelf"
+    [[builds.products]]
+    name = "strings"
+    type = "executable"
+    path = "bin/armv7l-linux-gnueabihf-strings"
+    [[builds.products]]
+    name = "binutils_strip"
+    type = "executable"
+    path = "bin/armv7l-linux-gnueabihf-strip"
+
+    [[builds.sources]]
+    treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
+    url = "https://ftp.gnu.org/gnu/binutils/binutils-2.41.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:ce6403ad0623bc07ad1c85686064baab86c1750b"
+    url = "/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0"
+
+    [builds.artifact]
+    treehash = "sha1:985bde48d800e1997d6e5321d2eae382498b7183"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:b8ff56a523db8841965f6a542c6f7e9a45d4a9b49096a207d6d4714b2206f26f"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-v2.41.2-armv7l-linux-gnueabihf-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+[[builds]]
+name = "Binutils"
+lazy = "false"
+src_version = "2.41.0"
+platform = "powerpc64le-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le"
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    compat = "*"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:83584cb83b8afcf4007e8f88b99fce302047d74c"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:20c453bc04a93aa9d00c341e1518e567c4a77bc7b57d4fbd86b735222069d558"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-build_log-v2.41.2-powerpc64le-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:652c6414c8532f07f2469cbdba076ef66da620e2"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:b5b3f932a284eb4fcb31d4f5627dc50a3fa37e298e175f3e9da8799c6f4c49e7"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-extract_log-v2.41.2-powerpc64le-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
+
+    [[builds.products]]
+    name = "ar"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-ar"
+    [[builds.products]]
+    name = "as"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-as"
+    [[builds.products]]
+    name = "ld"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-ld"
+    [[builds.products]]
+    name = "nm"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-nm"
+    [[builds.products]]
+    name = "objcopy"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-objcopy"
+    [[builds.products]]
+    name = "objdump"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-objdump"
+    [[builds.products]]
+    name = "ranlib"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-ranlib"
+    [[builds.products]]
+    name = "readelf"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-readelf"
+    [[builds.products]]
+    name = "strings"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-strings"
+    [[builds.products]]
+    name = "binutils_strip"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-strip"
+
+    [[builds.sources]]
+    treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
+    url = "https://ftp.gnu.org/gnu/binutils/binutils-2.41.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:ce6403ad0623bc07ad1c85686064baab86c1750b"
+    url = "/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0"
+
+    [builds.artifact]
+    treehash = "sha1:7018d2576e6e5ea70575055009f7f3d4bf212e78"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:c14e172ef625fdc6330ffa6af9b9fd0388bfd81663f11dba84d4c7eb34c2a78f"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-v2.41.2-powerpc64le-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
+[[builds]]
+name = "Binutils"
+lazy = "false"
+src_version = "2.41.0"
+platform = "x86_64-w64-mingw32-target_os+windows-target_arch+x86_64"
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    compat = "*"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:fb52fcd9e1cd6b709d2e886675aa0ae666ebe297"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:df4bc63c63a31ccc07943962e4ac56f8f5367e8f57bbb4de1bcaa33e57ad4889"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-build_log-v2.41.2-x86_64-w64-mingw32-target_os+windows-target_arch+x86_64.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:173b518e931dd1bb96fdb889427a5fcebaa890ea"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:dba6ad34036a2b020e4f71c3848c0763b2cd64c64e8e2bbbbf6c3052ecc52710"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-extract_log-v2.41.2-x86_64-w64-mingw32-target_os+windows-target_arch+x86_64.tar.gz"
+
+    [[builds.products]]
+    name = "ar"
+    type = "executable"
+    path = "bin/x86_64-w64-mingw32-ar.exe"
+    [[builds.products]]
+    name = "as"
+    type = "executable"
+    path = "bin/x86_64-w64-mingw32-as.exe"
+    [[builds.products]]
+    name = "ld"
+    type = "executable"
+    path = "bin/x86_64-w64-mingw32-ld.exe"
+    [[builds.products]]
+    name = "nm"
+    type = "executable"
+    path = "bin/x86_64-w64-mingw32-nm.exe"
+    [[builds.products]]
+    name = "objcopy"
+    type = "executable"
+    path = "bin/x86_64-w64-mingw32-objcopy.exe"
+    [[builds.products]]
+    name = "objdump"
+    type = "executable"
+    path = "bin/x86_64-w64-mingw32-objdump.exe"
+    [[builds.products]]
+    name = "ranlib"
+    type = "executable"
+    path = "bin/x86_64-w64-mingw32-ranlib.exe"
+    [[builds.products]]
+    name = "readelf"
+    type = "executable"
+    path = "bin/x86_64-w64-mingw32-readelf.exe"
+    [[builds.products]]
+    name = "strings"
+    type = "executable"
+    path = "bin/x86_64-w64-mingw32-strings.exe"
+    [[builds.products]]
+    name = "binutils_strip"
+    type = "executable"
+    path = "bin/x86_64-w64-mingw32-strip.exe"
+
+    [[builds.sources]]
+    treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
+    url = "https://ftp.gnu.org/gnu/binutils/binutils-2.41.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:ce6403ad0623bc07ad1c85686064baab86c1750b"
+    url = "/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0"
+
+    [builds.artifact]
+    treehash = "sha1:2aae03652e5d815accca600e16228033ac2bea0d"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:3d25d7f234df01815bdbecbd2415c9a0a3175c9faa6975ba8cfc6073307abf66"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-v2.41.2-x86_64-w64-mingw32-target_os+windows-target_arch+x86_64.tar.gz"
+[[builds]]
+name = "Binutils"
+lazy = "false"
+src_version = "2.41.0"
+platform = "i686-w64-mingw32-target_os+windows-target_arch+i686"
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+    compat = "*"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:0c09980cabb4c7f34b325425f7170e28a8b87edd"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:178568512b0bd0939f7c885671f4538cc167d74e240c779d72212925b2d0cf8d"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-build_log-v2.41.2-i686-w64-mingw32-target_os+windows-target_arch+i686.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:cbbdc055547b03f4f66e28577604ed7ea32861ac"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:60e922cbde45c34ffc525923baca23f3b20b3baeb3eb60b8e7cbe3e2f0eb909c"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-extract_log-v2.41.2-i686-w64-mingw32-target_os+windows-target_arch+i686.tar.gz"
+
+    [[builds.products]]
+    name = "ar"
+    type = "executable"
+    path = "bin/i686-w64-mingw32-ar.exe"
+    [[builds.products]]
+    name = "as"
+    type = "executable"
+    path = "bin/i686-w64-mingw32-as.exe"
+    [[builds.products]]
+    name = "ld"
+    type = "executable"
+    path = "bin/i686-w64-mingw32-ld.exe"
+    [[builds.products]]
+    name = "nm"
+    type = "executable"
+    path = "bin/i686-w64-mingw32-nm.exe"
+    [[builds.products]]
+    name = "objcopy"
+    type = "executable"
+    path = "bin/i686-w64-mingw32-objcopy.exe"
+    [[builds.products]]
+    name = "objdump"
+    type = "executable"
+    path = "bin/i686-w64-mingw32-objdump.exe"
+    [[builds.products]]
+    name = "ranlib"
+    type = "executable"
+    path = "bin/i686-w64-mingw32-ranlib.exe"
+    [[builds.products]]
+    name = "readelf"
+    type = "executable"
+    path = "bin/i686-w64-mingw32-readelf.exe"
+    [[builds.products]]
+    name = "strings"
+    type = "executable"
+    path = "bin/i686-w64-mingw32-strings.exe"
+    [[builds.products]]
+    name = "binutils_strip"
+    type = "executable"
+    path = "bin/i686-w64-mingw32-strip.exe"
+
+    [[builds.sources]]
+    treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
+    url = "https://ftp.gnu.org/gnu/binutils/binutils-2.41.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:ce6403ad0623bc07ad1c85686064baab86c1750b"
+    url = "/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0"
+
+    [builds.artifact]
+    treehash = "sha1:0b31b6de6880247158cef5f96d665cd0b6e1c075"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:e7d362c55572d3bf58a27095a2c175af489a4bd48c50c1c61a7f047414889a24"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.2-GCC/Binutils-v2.41.2-i686-w64-mingw32-target_os+windows-target_arch+i686.tar.gz"
