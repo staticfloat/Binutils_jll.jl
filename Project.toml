@@ -1,6 +1,6 @@
 name = "Binutils_jll"
 uuid = "489e263e-5428-50b0-a723-147a141b401e"
-version = "2.41.1"
+version = "2.41.2"
 
 [deps]
 Zlib_jll = "83775a58-1f1d-513f-b197-d71354ab007a"
