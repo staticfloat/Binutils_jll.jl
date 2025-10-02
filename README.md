@@ -7,49 +7,27 @@ For more details about JLL packages and how to use them, see the `BinaryBuilder.
 # Sources
 The binaries for `Binutils` have been built from upstream sources version v2.41.0:
 
- - [https://ftp.gnu.org/gnu/binutils/binutils-2.41.tar.xz](https://ftp.gnu.org/gnu/binutils/binutils-2.41.tar.xz) (treehash: sha1:c70156bf6994f968b170ade0ee464325efb9103c)
+ - [https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz](https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz) (treehash: sha1:c70156bf6994f968b170ade0ee464325efb9103c)
  - [/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0](/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0) (treehash: sha1:516947d14ab706304c2b1e0e053f185453959d53)
 # Platforms
 
 `Binutils` is available for the following platforms:
 
- - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("x86_64", "linux"; libc = "glibc"))`
+ - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("x86_64", "linux"; libc = "glibc"))`
  - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("i686", "linux"; libc = "glibc"))`
- - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("i686", "linux"; libc = "glibc"))`
  - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("aarch64", "linux"; libc = "glibc"))`
  - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("armv6l", "linux"; call_abi = "eabihf", libc = "glibc"))`
- - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("armv6l", "linux"; call_abi = "eabihf", libc = "glibc"))`
  - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("armv7l", "linux"; call_abi = "eabihf", libc = "glibc"))`
- - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("armv7l", "linux"; call_abi = "eabihf", libc = "glibc"))`
  - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("powerpc64le", "linux"; libc = "glibc"))`
- - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("powerpc64le", "linux"; libc = "glibc"))`
  - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("x86_64", "linux"; libc = "musl"))`
- - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("x86_64", "linux"; libc = "musl"))`
  - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("i686", "linux"; libc = "musl"))`
- - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("i686", "linux"; libc = "musl"))`
  - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("aarch64", "linux"; libc = "musl"))`
- - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("aarch64", "linux"; libc = "musl"))`
  - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("armv6l", "linux"; call_abi = "eabihf", libc = "musl"))`
- - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("armv6l", "linux"; call_abi = "eabihf", libc = "musl"))`
  - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("armv7l", "linux"; call_abi = "eabihf", libc = "musl"))`
- - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("armv7l", "linux"; call_abi = "eabihf", libc = "musl"))`
  - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("x86_64", "windows"; ))`
- - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("x86_64", "windows"; ))`
  - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("i686", "windows"; ))`
- - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("i686", "windows"; ))`
- - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("x86_64", "linux"; libc = "glibc"))`
- - `CrossPlatform(Platform("i686", "linux"; libc = "glibc") -> Platform("i686", "linux"; libc = "glibc"))`
- - `CrossPlatform(Platform("aarch64", "linux"; libc = "glibc") -> Platform("aarch64", "linux"; libc = "glibc"))`
- - `CrossPlatform(Platform("armv6l", "linux"; call_abi = "eabihf", libc = "glibc") -> Platform("armv6l", "linux"; call_abi = "eabihf", libc = "glibc"))`
- - `CrossPlatform(Platform("armv7l", "linux"; call_abi = "eabihf", libc = "glibc") -> Platform("armv7l", "linux"; call_abi = "eabihf", libc = "glibc"))`
- - `CrossPlatform(Platform("powerpc64le", "linux"; libc = "glibc") -> Platform("powerpc64le", "linux"; libc = "glibc"))`
- - `CrossPlatform(Platform("x86_64", "linux"; libc = "musl") -> Platform("x86_64", "linux"; libc = "musl"))`
- - `CrossPlatform(Platform("i686", "linux"; libc = "musl") -> Platform("i686", "linux"; libc = "musl"))`
- - `CrossPlatform(Platform("aarch64", "linux"; libc = "musl") -> Platform("aarch64", "linux"; libc = "musl"))`
- - `CrossPlatform(Platform("armv6l", "linux"; call_abi = "eabihf", libc = "musl") -> Platform("armv6l", "linux"; call_abi = "eabihf", libc = "musl"))`
- - `CrossPlatform(Platform("armv7l", "linux"; call_abi = "eabihf", libc = "musl") -> Platform("armv7l", "linux"; call_abi = "eabihf", libc = "musl"))`
- - `CrossPlatform(Platform("x86_64", "windows"; ) -> Platform("x86_64", "windows"; ))`
- - `CrossPlatform(Platform("i686", "windows"; ) -> Platform("i686", "windows"; ))`
+ - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("x86_64", "freebsd"; ))`
+ - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("aarch64", "freebsd"; ))`
 # Dependencies
 The following JLL packages are required by `Binutils`:
 
