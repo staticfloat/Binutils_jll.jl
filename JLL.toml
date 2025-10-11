@@ -22,18 +22,18 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:40a7fc508877a9034ea315cdefd0d6cfa595c763"
+    treehash = "sha1:6d080fe8406d368229559ad5ed54a7593202c41d"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:5e3211d39768dcad53ba67052907aeb45ebf8ff2a0f5c0178248fd987489553e"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:b7b9e849f1132f3a6504048ed953f27068689a922e519ca1a15b7e64c6bac6dd"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:a48c356a94aad0452f339ca00659235b69e15824"
+    treehash = "sha1:733b5542491f6324a49cae6827b092025f1b058c"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:9b16706c78e1d7e3f6f7941cf6c3fa37b5d4aa35405f387fe680dee9a0e32b40"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:fe5c61cbd307433e39c149124f212191f73e5bfcd8aa8ebb55bf5fa458e77b56"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
 
     [[builds.products]]
     name = "ar"
@@ -84,11 +84,11 @@ src_version = "2.41.0"
     url = "/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:e1f39e33d91892b520ff2ce69b05893b36b72eaf"
+    treehash = "sha1:9c4a89ed250a7d2b9807b275bf008baaeb3766ba"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:7c62a2331d4b69d547e19400cacfe6722feb2c0c86ca1ec47b5622e86a43e2b6"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:e4091f669d602a5655594f08b0e90b5c214b5506b46a5e0430215fdfb62d4473"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
 [[builds]]
 name = "Binutils"
 platform = "x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686"
@@ -108,18 +108,18 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:aedaa29058611cba34bbba052ced918efe1870e8"
+    treehash = "sha1:186435a27ea36e80a3b1f426c73afbc0624d5489"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:0105a827087eb176dd5a95e4511cb07caf06f9ddce38be36fb86400ce909a775"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
+        tarball_hash = "sha256:1f7eba5446012dff471fe8ab525119628dbadca39749b33462ea34a04fcef1b6"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:eb86796d38e7ac8da65ff5c203a7cd51bd4e3263"
+    treehash = "sha1:47fe3f2647a2bb5c5788d93c8aa563ae0d2560e3"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:305fb840979a39ceb38cbd4fd5e004e52cd9223dd29402a8fbda424dae07b42a"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
+        tarball_hash = "sha256:d097be6e2f6284399eb5826abcc84c61ee064fd320b73016db2ddaf0533353bc"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
 
     [[builds.products]]
     name = "ar"
@@ -170,11 +170,11 @@ src_version = "2.41.0"
     url = "/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:ff72da10354f38e5f236cddcfa32c1dcf1180973"
+    treehash = "sha1:0458cddd2d643329bfde4f018da74f9c29be5fdf"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:6aa34a09978c9f4aa8c72d05e680f82e2cade02735ddc1bffe9ea877ef965f97"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
+        tarball_hash = "sha256:13a7b281932d5f3dc54312c56135fb923a3451d9520ffa8328088e936421c372"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
 [[builds]]
 name = "Binutils"
 platform = "x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64"
@@ -194,18 +194,18 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:2007f667409b03059228b8d1cabcadd870cbc561"
+    treehash = "sha1:00471a15ec3998f623fd8e5341cac39ebfbd6e41"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:9f316fc8f5f725cdecc74b379a72e567b8f94f5d09874b06b8e9e72987e35255"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
+        tarball_hash = "sha256:e7dfc05cae1b0ea3ffb5622b59279389407549305280a19682f13f71efc3885d"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:369d69b2e107c906d0d03f1d4a37c800a361744e"
+    treehash = "sha1:774808e6909cb8f41673867fcb80468ae1ac6b04"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:4580f52622d09863b645376d91b01636b030cc1a5e053ffead48a450b4e9404c"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
+        tarball_hash = "sha256:0d2e86a9e3cef13798fad1923aa3da1af8c6bf1d010e48752ae2b4e90a982dac"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
 
     [[builds.products]]
     name = "ar"
@@ -256,97 +256,11 @@ src_version = "2.41.0"
     url = "/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:512d8b8ac6036353893c59b70d49b60f2f704855"
+    treehash = "sha1:ab90f991f2c3b9817d66fce720e14b00f538df0a"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:30f634fe155f2bfd7a2af8a4b3c35470b7c39effcb16be467379e2c6712680d1"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
-[[builds]]
-name = "Binutils"
-platform = "x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv6l"
-lazy = "false"
-src_version = "2.41.0"
-
-    [[builds.licenses]]
-    license_text = """\t\t    GNU GENERAL PUBLIC LICENSE\n\t\t       Version 2, June 1991\n\n Copyright (C) 1989, 1991 Free Software Foundation, Inc.\n     51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n\t\t\t    Preamble\n\n  The licenses for most software are designed to take away your\nfreedom to share and change it.  By contrast, the GNU General Public\nLicense is intended to guarantee your freedom to share and change free\nsoftware--to make sure the software is free for all its users.  This\nGeneral Public License applies to most of the Free Software\nFoundation's software and to any other program whose authors commit to\nusing it.  (Some other Free Software Foundation software is covered by\nthe GNU Library General Public License instead.)  You can apply it to\nyour programs, too.\n\n  When we speak of free software, we are referring to freedom, not\nprice.  Our General Public Licenses are designed to make sure that you\nhave the freedom to distribute copies of free software (and charge for\nthis service if you wish), that you receive source code or can get it\nif you want it, that you can change the software or use pieces of it\nin new free programs; and that you know you can do these things.\n\n  To protect your rights, we need to make restrictions that forbid\nanyone to deny you these rights or to ask you to surrender the rights.\nThese restrictions translate to certain responsibilities for you if you\ndistribute copies of the software, or if you modify it.\n\n  For example, if you distribute copies of such a program, whether\ngratis or for a fee, you must give the recipients all the rights that\nyou have.  You must make sure that they, too, receive or can get the\nsource code.  And you must show them these terms so they know their\nrights.\n\n  We protect your rights with two steps: (1) copyright the software, and\n(2) offer you this license which gives you legal permission to copy,\ndistribute and/or modify the software.\n\n  Also, for each author's protection and ours, we want to make certain\nthat everyone understands that there is no warranty for this free\nsoftware.  If the software is modified by someone else and passed on, we\nwant its recipients to know that what they have is not the original, so\nthat any problems introduced by others will not reflect on the original\nauthors' reputations.\n\n  Finally, any free program is threatened constantly by software\npatents.  We wish to avoid the danger that redistributors of a free\nprogram will individually obtain patent licenses, in effect making the\nprogram proprietary.  To prevent this, we have made it clear that any\npatent must be licensed for everyone's free use or not licensed at all.\n\n  The precise terms and conditions for copying, distribution and\nmodification follow.\n\f\n\t\t    GNU GENERAL PUBLIC LICENSE\n   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION\n\n  0. This License applies to any program or other work which contains\na notice placed by the copyright holder saying it may be distributed\nunder the terms of this General Public License.  The \"Program\", below,\nrefers to any such program or work, and a \"work based on the Program\"\nmeans either the Program or any derivative work under copyright law:\nthat is to say, a work containing the Program or a portion of it,\neither verbatim or with modifications and/or translated into another\nlanguage.  (Hereinafter, translation is included without limitation in\nthe term \"modification\".)  Each licensee is addressed as \"you\".\n\nActivities other than copying, distribution and modification are not\ncovered by this License; they are outside its scope.  The act of\nrunning the Program is not restricted, and the output from the Program\nis covered only if its contents constitute a work based on the\nProgram (independent of having been made by running the Program).\nWhether that is true depends on what the Program does.\n\n  1. You may copy and distribute verbatim copies of the Program's\nsource code as you receive it, in any medium, provided that you\nconspicuously and appropriately publish on each copy an appropriate\ncopyright notice and disclaimer of warranty; keep intact all the\nnotices that refer to this License and to the absence of any warranty;\nand give any other recipients of the Program a copy of this License\nalong with the Program.\n\nYou may charge a fee for the physical act of transferring a copy, and\nyou may at your option offer warranty protection in exchange for a fee.\n\n  2. You may modify your copy or copies of the Program or any portion\nof it, thus forming a work based on the Program, and copy and\ndistribute such modifications or work under the terms of Section 1\nabove, provided that you also meet all of these conditions:\n\n    a) You must cause the modified files to carry prominent notices\n    stating that you changed the files and the date of any change.\n\n    b) You must cause any work that you distribute or publish, that in\n    whole or in part contains or is derived from the Program or any\n    part thereof, to be licensed as a whole at no charge to all third\n    parties under the terms of this License.\n\n    c) If the modified program normally reads commands interactively\n    when run, you must cause it, when started running for such\n    interactive use in the most ordinary way, to print or display an\n    announcement including an appropriate copyright notice and a\n    notice that there is no warranty (or else, saying that you provide\n    a warranty) and that users may redistribute the program under\n    these conditions, and telling the user how to view a copy of this\n    License.  (Exception: if the Program itself is interactive but\n    does not normally print such an announcement, your work based on\n    the Program is not required to print an announcement.)\n\f\nThese requirements apply to the modified work as a whole.  If\nidentifiable sections of that work are not derived from the Program,\nand can be reasonably considered independent and separate works in\nthemselves, then this License, and its terms, do not apply to those\nsections when you distribute them as separate works.  But when you\ndistribute the same sections as part of a whole which is a work based\non the Program, the distribution of the whole must be on the terms of\nthis License, whose permissions for other licensees extend to the\nentire whole, and thus to each and every part regardless of who wrote it.\n\nThus, it is not the intent of this section to claim rights or contest\nyour rights to work written entirely by you; rather, the intent is to\nexercise the right to control the distribution of derivative or\ncollective works based on the Program.\n\nIn addition, mere aggregation of another work not based on the Program\nwith the Program (or with a work based on the Program) on a volume of\na storage or distribution medium does not bring the other work under\nthe scope of this License.\n\n  3. You may copy and distribute the Program (or a work based on it,\nunder Section 2) in object code or executable form under the terms of\nSections 1 and 2 above provided that you also do one of the following:\n\n    a) Accompany it with the complete corresponding machine-readable\n    source code, which must be distributed under the terms of Sections\n    1 and 2 above on a medium customarily used for software interchange; or,\n\n    b) Accompany it with a written offer, valid for at least three\n    years, to give any third party, for a charge no more than your\n    cost of physically performing source distribution, a complete\n    machine-readable copy of the corresponding source code, to be\n    distributed under the terms of Sections 1 and 2 above on a medium\n    customarily used for software interchange; or,\n\n    c) Accompany it with the information you received as to the offer\n    to distribute corresponding source code.  (This alternative is\n    allowed only for noncommercial distribution and only if you\n    received the program in object code or executable form with such\n    an offer, in accord with Subsection b above.)\n\nThe source code for a work means the preferred form of the work for\nmaking modifications to it.  For an executable work, complete source\ncode means all the source code for all modules it contains, plus any\nassociated interface definition files, plus the scripts used to\ncontrol compilation and installation of the executable.  However, as a\nspecial exception, the source code distributed need not include\nanything that is normally distributed (in either source or binary\nform) with the major components (compiler, kernel, and so on) of the\noperating system on which the executable runs, unless that component\nitself accompanies the executable.\n\nIf distribution of executable or object code is made by offering\naccess to copy from a designated place, then offering equivalent\naccess to copy the source code from the same place counts as\ndistribution of the source code, even though third parties are not\ncompelled to copy the source along with the object code.\n\f\n  4. You may not copy, modify, sublicense, or distribute the Program\nexcept as expressly provided under this License.  Any attempt\notherwise to copy, modify, sublicense or distribute the Program is\nvoid, and will automatically terminate your rights under this License.\nHowever, parties who have received copies, or rights, from you under\nthis License will not have their licenses terminated so long as such\nparties remain in full compliance.\n\n  5. You are not required to accept this License, since you have not\nsigned it.  However, nothing else grants you permission to modify or\ndistribute the Program or its derivative works.  These actions are\nprohibited by law if you do not accept this License.  Therefore, by\nmodifying or distributing the Program (or any work based on the\nProgram), you indicate your acceptance of this License to do so, and\nall its terms and conditions for copying, distributing or modifying\nthe Program or works based on it.\n\n  6. Each time you redistribute the Program (or any work based on the\nProgram), the recipient automatically receives a license from the\noriginal licensor to copy, distribute or modify the Program subject to\nthese terms and conditions.  You may not impose any further\nrestrictions on the recipients' exercise of the rights granted herein.\nYou are not responsible for enforcing compliance by third parties to\nthis License.\n\n  7. If, as a consequence of a court judgment or allegation of patent\ninfringement or for any other reason (not limited to patent issues),\nconditions are imposed on you (whether by court order, agreement or\notherwise) that contradict the conditions of this License, they do not\nexcuse you from the conditions of this License.  If you cannot\ndistribute so as to satisfy simultaneously your obligations under this\nLicense and any other pertinent obligations, then as a consequence you\nmay not distribute the Program at all.  For example, if a patent\nlicense would not permit royalty-free redistribution of the Program by\nall those who receive copies directly or indirectly through you, then\nthe only way you could satisfy both it and this License would be to\nrefrain entirely from distribution of the Program.\n\nIf any portion of this section is held invalid or unenforceable under\nany particular circumstance, the balance of the section is intended to\napply and the section as a whole is intended to apply in other\ncircumstances.\n\nIt is not the purpose of this section to induce you to infringe any\npatents or other property right claims or to contest validity of any\nsuch claims; this section has the sole purpose of protecting the\nintegrity of the free software distribution system, which is\nimplemented by public license practices.  Many people have made\ngenerous contributions to the wide range of software distributed\nthrough that system in reliance on consistent application of that\nsystem; it is up to the author/donor to decide if he or she is willing\nto distribute software through any other system and a licensee cannot\nimpose that choice.\n\nThis section is intended to make thoroughly clear what is believed to\nbe a consequence of the rest of this License.\n\f\n  8. If the distribution and/or use of the Program is restricted in\ncertain countries either by patents or by copyrighted interfaces, the\noriginal copyright holder who places the Program under this License\nmay add an explicit geographical distribution limitation excluding\nthose countries, so that distribution is permitted only in or among\ncountries not thus excluded.  In such case, this License incorporates\nthe limitation as if written in the body of this License.\n\n  9. The Free Software Foundation may publish revised and/or new versions\nof the General Public License from time to time.  Such new versions will\nbe similar in spirit to the present version, but may differ in detail to\naddress new problems or concerns.\n\nEach version is given a distinguishing version number.  If the Program\nspecifies a version number of this License which applies to it and \"any\nlater version\", you have the option of following the terms and conditions\neither of that version or of any later version published by the Free\nSoftware Foundation.  If the Program does not specify a version number of\nthis License, you may choose any version ever published by the Free Software\nFoundation.\n\n  10. If you wish to incorporate parts of the Program into other free\nprograms whose distribution conditions are different, write to the author\nto ask for permission.  For software which is copyrighted by the Free\nSoftware Foundation, write to the Free Software Foundation; we sometimes\nmake exceptions for this.  Our decision will be guided by the two goals\nof preserving the free status of all derivatives of our free software and\nof promoting the sharing and reuse of software generally.\n\n\t\t\t    NO WARRANTY\n\n  11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY\nFOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW.  EXCEPT WHEN\nOTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES\nPROVIDE THE PROGRAM \"AS IS\" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED\nOR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF\nMERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  THE ENTIRE RISK AS\nTO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  SHOULD THE\nPROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING,\nREPAIR OR CORRECTION.\n\n  12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING\nWILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR\nREDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES,\nINCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING\nOUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED\nTO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY\nYOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER\nPROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE\nPOSSIBILITY OF SUCH DAMAGES.\n\n\t\t     END OF TERMS AND CONDITIONS\n\f\n\t    How to Apply These Terms to Your New Programs\n\n  If you develop a new program, and you want it to be of the greatest\npossible use to the public, the best way to achieve this is to make it\nfree software which everyone can redistribute and change under these terms.\n\n  To do so, attach the following notices to the program.  It is safest\nto attach them to the start of each source file to most effectively\nconvey the exclusion of warranty; and each file should have at least\nthe \"copyright\" line and a pointer to where the full notice is found.\n\n    <one line to give the program's name and a brief idea of what it does.>\n    Copyright (C) <year>  <name of author>\n\n    This program is free software; you can redistribute it and/or modify\n    it under the terms of the GNU General Public License as published by\n    the Free Software Foundation; either version 2 of the License, or\n    (at your option) any later version.\n\n    This program is distributed in the hope that it will be useful,\n    but WITHOUT ANY WARRANTY; without even the implied warranty of\n    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n    GNU General Public License for more details.\n\n    You should have received a copy of the GNU General Public License\n    along with this program; if not, write to the Free Software\n    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA\n\n\nAlso add information on how to contact you by electronic and paper mail.\n\nIf the program is interactive, make it output a short notice like this\nwhen it starts in an interactive mode:\n\n    Gnomovision version 69, Copyright (C) year  name of author\n    Gnomovision comes with ABSOLUTELY NO WARRANTY; for details type `show w'.\n    This is free software, and you are welcome to redistribute it\n    under certain conditions; type `show c' for details.\n\nThe hypothetical commands `show w' and `show c' should show the appropriate\nparts of the General Public License.  Of course, the commands you use may\nbe called something other than `show w' and `show c'; they could even be\nmouse-clicks or menu items--whatever suits your program.\n\nYou should also get your employer (if you work as a programmer) or your\nschool, if any, to sign a \"copyright disclaimer\" for the program, if\nnecessary.  Here is a sample; alter the names:\n\n  Yoyodyne, Inc., hereby disclaims all copyright interest in the program\n  `Gnomovision' (which makes passes at compilers) written by James Hacker.\n\n  <signature of Ty Coon>, 1 April 1989\n  Ty Coon, President of Vice\n\nThis General Public License does not permit incorporating your program into\nproprietary programs.  If your program is a subroutine library, you may\nconsider it more useful to permit linking proprietary applications with the\nlibrary.  If this is what you want to do, use the GNU Library General\nPublic License instead of this License.\n"""
-    filename = "COPYING"
-    license_type = "GPL-2.0"
-
-    [[builds.deps]]
-    name = "Zlib_jll"
-    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
-    compat = "*"
-
-    [builds.callback_defs]
-
-    [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:217ff5e9103b876d3d0b16bd18569ccbabbc3790"
-
-        [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:8026c04f4a2492a2b9fe59ef58304cdd68b859f2ec8e6eec24b38b6e48a97bcf"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
-
-    [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:9aa5e5461fdaa3b9cb579408f7d6769654ba91d4"
-
-        [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:bfd9879117cc40d003ae9c31ae14ea8964139069ce7b060029373fec20124018"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
-
-    [[builds.products]]
-    name = "ar"
-    type = "executable"
-    path = "bin/armv6l-linux-gnueabihf-ar"
-    [[builds.products]]
-    name = "as"
-    type = "executable"
-    path = "bin/armv6l-linux-gnueabihf-as"
-    [[builds.products]]
-    name = "ld"
-    type = "executable"
-    path = "bin/armv6l-linux-gnueabihf-ld"
-    [[builds.products]]
-    name = "nm"
-    type = "executable"
-    path = "bin/armv6l-linux-gnueabihf-nm"
-    [[builds.products]]
-    name = "objcopy"
-    type = "executable"
-    path = "bin/armv6l-linux-gnueabihf-objcopy"
-    [[builds.products]]
-    name = "objdump"
-    type = "executable"
-    path = "bin/armv6l-linux-gnueabihf-objdump"
-    [[builds.products]]
-    name = "ranlib"
-    type = "executable"
-    path = "bin/armv6l-linux-gnueabihf-ranlib"
-    [[builds.products]]
-    name = "readelf"
-    type = "executable"
-    path = "bin/armv6l-linux-gnueabihf-readelf"
-    [[builds.products]]
-    name = "strings"
-    type = "executable"
-    path = "bin/armv6l-linux-gnueabihf-strings"
-    [[builds.products]]
-    name = "binutils_strip"
-    type = "executable"
-    path = "bin/armv6l-linux-gnueabihf-strip"
-
-    [[builds.sources]]
-    treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
-    url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
-    [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0"
-
-    [builds.artifact]
-    treehash = "sha1:8af24325f7cc8192a0b2ce6a5e2f1fe14fedde83"
-
-        [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:91841bc6add3aab13457cff6448da34ccbf5bb2888b76ff49bc118955da717f5"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
+        tarball_hash = "sha256:4853475ba9078937c4c7db9c5995ce5465f818fc3096b732383d03ced02ff87c"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
 [[builds]]
 name = "Binutils"
 platform = "x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l"
@@ -366,18 +280,18 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:c921dd9d01e35fa016e4def1248c4b19d8acd6ce"
+    treehash = "sha1:778d67f83ebdc8bb9610c6ea84e8975fc689b32f"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:d3667081997a9932d0cdedcd5d4e500cd4c618447cc859a9907ea317d9644680"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+        tarball_hash = "sha256:c64f77a3e01b8477c5ec3c765a15b13d73aa2d4971ebd0618e75cf1e58e595d4"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:17dd1b00917ad341e08068ae0d4ab5606f4d7cb7"
+    treehash = "sha1:175443105539cc77c288a7d02d19bd86b9bbd829"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:f37c4422f1119b18b5ff3b43c2556d9c3814e6fe56e8ff4f2ef4975bb93f20ab"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+        tarball_hash = "sha256:c612cc0eb290000974b954988ed0900091f888e49f88d0d48a12b6335bd70b9e"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
 
     [[builds.products]]
     name = "ar"
@@ -428,11 +342,11 @@ src_version = "2.41.0"
     url = "/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:f929ccf4309b2cd67039a3af2decf8314e1cd50a"
+    treehash = "sha1:abf467ed5c8ff456521f5eee2a0903eccedf6764"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:e2fbaa9ff3d99a14eb123e273e0548f25179064eafbfafdf838024784c5bb5fa"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+        tarball_hash = "sha256:0aced4bfa2004115ae2435f7e41f5cf4a086537ffe6d1a688b7073c44a56f508"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
 [[builds]]
 name = "Binutils"
 platform = "x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le"
@@ -452,18 +366,18 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:a12e00c5cd36af483a84f9e6dda77ca30455815e"
+    treehash = "sha1:185494598566985315305fc4f4b84639969d0d73"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:ac1fca4ba3fa9edebe65f0fcd0516cca3e5f411275ad50ca47cf30e38e212360"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
+        tarball_hash = "sha256:59fad16068f7eebefb1925eab87749851b8b9359953cba5819505753fb6269b4"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:ac0559a365bb8d19f74d7ed4f086fee10d9b114b"
+    treehash = "sha1:b8448890874ba851eb46e0004cf2843603f941b3"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:343ff5a9fdf1ec3b36bfb39b2248e200b146e08b20ee0a721239e92ad2b2ef86"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
+        tarball_hash = "sha256:9cfcec405e052e7fa5e60f0608c7b18b2dbd5ff73ec74c59fa1ac571caf93d71"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
 
     [[builds.products]]
     name = "ar"
@@ -514,11 +428,11 @@ src_version = "2.41.0"
     url = "/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:157f6dca8d8b6e9a82f29621e95427c8327c436b"
+    treehash = "sha1:1ad52627a3e7be2a3d7046562a52cd690b3e3289"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:414ffa54dc5559f8d1819558444bf23713af646fd8786ce687e3affc1571b6db"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
+        tarball_hash = "sha256:750a503b27ca120e2e0b863ee78c3a56bb200434d6772eec52025789e91def51"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
 [[builds]]
 name = "Binutils"
 platform = "x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+x86_64"
@@ -538,18 +452,18 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:85424c6132fc64291bdab3a8b4b24919075cef4a"
+    treehash = "sha1:86b9830a24fb30caa9c7a111db0939d53b48f445"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:b08d1b533c49637d7c9afaf593478e30840029c519cf5ba88c62e96f95fb4e2a"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:4bbd80d9780bc09a3bee33c629f7dc52a0058ff7b5081a864c527db8f74c9406"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+x86_64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:0f7c0145a5a4cf3f9b15016aef84dbb509782c24"
+    treehash = "sha1:a1f3991ab8251eb20c55a50e07defb0ef91bf071"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:4667bb2bdcd9e8f7645ffe3da2f526bf9a05e1204ff0dd441c73708f7cd76332"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:6dd274a5774ceaba91b767012f9ad294ec766e2695c4c19129816f5211a4398e"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+x86_64.tar.gz"
 
     [[builds.products]]
     name = "ar"
@@ -600,11 +514,11 @@ src_version = "2.41.0"
     url = "/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:e264494b9210a3692f072e131046b4682ea042b5"
+    treehash = "sha1:07638bfc42330584f8d09b5d158b684bb7c1f5e8"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:468132fc2601c0e510073937f12539b585e910593d162561b9e39d4a42844f1a"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:182003c7c81a12c2111b82bf949f737db1ff421629a8f4a0084bd4ee6d56ae6a"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+x86_64.tar.gz"
 [[builds]]
 name = "Binutils"
 platform = "x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+i686"
@@ -624,18 +538,18 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:03d726ee224c03ca8e65009535077f447daf872f"
+    treehash = "sha1:420ca8fce5e200c2fbb9fc526d59b44e830291bf"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:f4b24721f5036ef7931b2e0074c8cad4fc34854f9a21ae2bcb021b92c6226c22"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+i686.tar.gz"
+        tarball_hash = "sha256:9d8ec382d233d08ecf33cbf6fb24fbda04078c670b602f6b93167d93cdc0738b"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+i686.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:674a4f9c906b0d1bfa2f76f9d12efdc177e89bc3"
+    treehash = "sha1:1867773874f311a78f512d5c0fd1182f5666efd8"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:4feec4dc058274ec2865f66a363d982cc9027f4739ff770316ee8bbcea78afd0"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+i686.tar.gz"
+        tarball_hash = "sha256:c2c0a656c5d132bf3d7cc00cb2339fd7df32aa962932f1c57fad680e5ac61ab5"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+i686.tar.gz"
 
     [[builds.products]]
     name = "ar"
@@ -686,11 +600,11 @@ src_version = "2.41.0"
     url = "/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:1d7a3e8f8ca893ba4254122422af49b49edb5a30"
+    treehash = "sha1:d1a1557abdf24328f852b0eca706ffa6a31bedec"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:188e822ae12e44cd8801c0c22eabd5c80a319b2f038de043b323587c0e0b0d7c"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+i686.tar.gz"
+        tarball_hash = "sha256:a78790d8d9651bcc2b8d197c5b7dfc9caade02c9730cc5ed69ec800dbe535313"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+i686.tar.gz"
 [[builds]]
 name = "Binutils"
 platform = "x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+aarch64"
@@ -710,18 +624,18 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:fef3ec617b3a16350b26b2bff6e8720a578190ca"
+    treehash = "sha1:430f311265c577df0dbafd09a652b59fac92ac9c"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:e94eac300b1bfbdaa3b364037b105189dd9111bc8d2ae3bc12e17824d07b2b25"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+aarch64.tar.gz"
+        tarball_hash = "sha256:fd1ba45568d1740961c3e62511cee072cd852b6464bf50880ccbe27741b3533c"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+aarch64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:441597b675ecc556307facea18795b0f0ef2286f"
+    treehash = "sha1:14f1f737d35b9d9a72a82d74f8b57518a3f5446c"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:f61b849ce26bdd7bd5d7ac70646c4d4eefb8037779ff6e4530b8498615b5c900"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+aarch64.tar.gz"
+        tarball_hash = "sha256:d055d20db1de0f730bbcfd7c967d2554226b7913dae527be79d2044b07b3538a"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+aarch64.tar.gz"
 
     [[builds.products]]
     name = "ar"
@@ -772,11 +686,11 @@ src_version = "2.41.0"
     url = "/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:311d9e0efd51fd9c437c96bfc525d2aeb13ab825"
+    treehash = "sha1:ae70098912f0a8adeca8b72c5317676d400b1dd2"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:6ab8daf0405a5134be489920024bd4b12f746db2ce05daef6aa2df5ec8d85a26"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+aarch64.tar.gz"
+        tarball_hash = "sha256:5b670897b1421534872108368d13a20f990422c8d310cf182cb341947aba406a"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+aarch64.tar.gz"
 [[builds]]
 name = "Binutils"
 platform = "x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv6l"
@@ -796,18 +710,18 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:56fc95cd421679c546add37f722df949c48acb99"
+    treehash = "sha1:fe6cdd80a6f398393747b1d6a8e45359a3c63a8e"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:dc8e2d5d0ed619f5922a9a831bae5d12dddd53d3125309c01c6e4677f1265324"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
+        tarball_hash = "sha256:15d8313e4d6640d8bd7e36429d779c30a9f3873d2a280d46104266a5fc416255"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:d92354da22291da65772091741e3791821fdf099"
+    treehash = "sha1:1414ad09210469eec5249723ee3198b7373e055a"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:66c55ac63b807056e7d4a18c8ab9bfbb0febfaf12cbf58bef048ab22b4e4f5a5"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
+        tarball_hash = "sha256:8dcb17c17675c8c94191ded776b37b07d62ba108d491e118b59ef2d947172cfe"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
 
     [[builds.products]]
     name = "ar"
@@ -858,11 +772,11 @@ src_version = "2.41.0"
     url = "/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:76cc50d3fe9037b989b7bb390a44e939be876389"
+    treehash = "sha1:64cce3f2d85fd34c187a579bd9a5e2d8b90d468a"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:5d6e33c554ad3bf42277d865660d73e0dbdefbcdf8c9e88df6dde66eef7bdf7f"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
+        tarball_hash = "sha256:e7336bb1e7bafc679ed8e0d1f8ca65e6575a64ba8a5083d48c2a30c0e169311e"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
 [[builds]]
 name = "Binutils"
 platform = "x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv7l"
@@ -882,18 +796,18 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:87c8932725134a9669b949b3ac824ee8294df870"
+    treehash = "sha1:73a0f6c6632cc5ed6003aec8e221f25e54a4ba0c"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:3675eae55c03336281adaabcc09ac4ac6faa6240225cdd706e06bc76ae998349"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+        tarball_hash = "sha256:171cdf4ac0e72f34a7137ff5f901bf4872b366808e4fcfaf1d521c1048c6c4fb"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:9fc65d70c73d9c037a7a08ff3223095c95a09b60"
+    treehash = "sha1:af30847cf8b8782df882a084352544dd2c5a4953"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:aad742d08697507d61380cffb39a13dfdfe9191e00d19bd873058fa87b9ef6bb"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+        tarball_hash = "sha256:fc8a6aec934951d31f41a3c1598d0caed54df6c211259dc37f8626276d414355"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
 
     [[builds.products]]
     name = "ar"
@@ -944,11 +858,11 @@ src_version = "2.41.0"
     url = "/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:d32a270addac9892085554287ecb6e53bdfa421b"
+    treehash = "sha1:85e0e7365c14aa1c731cb4d879d662cf9dad6889"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:3187245350d78690fb3929f3413c61dea5bd56a176faf8baf5c541277e13e571"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+        tarball_hash = "sha256:a8b1f5d60e9c18b7d0e3566d5eee687be966ca58c7e234ce9fa76f68cb24bbc2"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
 [[builds]]
 name = "Binutils"
 platform = "x86_64-linux-gnu-target_os+windows-target_arch+x86_64"
@@ -968,18 +882,18 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:b10013c8f636cb39b947230d784d94742a9b7228"
+    treehash = "sha1:47b37ff6ac7b02518a1baa3ad727afb84ef02b43"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:336e908516e7a786a86429ff761e0ebb0f61b3dd7d0f6b6fdc2553f6b9e78c24"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_os+windows-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:09038dd741539a86065c2731b94ac2d73a0537ddba6490860c3cced351aa7ec5"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_os+windows-target_arch+x86_64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:ea13d14c8fd755248431b045056beb32162d5a29"
+    treehash = "sha1:1474fcd140cc215500d0f41aeeb1c0c359cdf2c9"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:c219cb710a09a7710acd7432a932387c4d6a138f84e7dc1605cbbcafbcee94a7"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_os+windows-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:e71ebe0a0f970894af466cbef85fb1214ac77e522ce62c9223079f5523a9f805"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_os+windows-target_arch+x86_64.tar.gz"
 
     [[builds.products]]
     name = "ar"
@@ -1030,11 +944,11 @@ src_version = "2.41.0"
     url = "/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:68d40ab73c67a32f7766088c75ae27e27a9c91a8"
+    treehash = "sha1:be50fb1b98b8b4744062d1459e50d7d1d5d782b1"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:978e6a83e5a9905869dba3310f7a8dce8555418fc2fc086db1d877ded46aa125"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-v2.41.1-x86_64-linux-gnu-target_os+windows-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:aafd8892d89e2f8e691c138a387b34c38eb2298ac35248d7ebf2985b7c503390"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-v2.41.1-x86_64-linux-gnu-target_os+windows-target_arch+x86_64.tar.gz"
 [[builds]]
 name = "Binutils"
 platform = "x86_64-linux-gnu-target_os+windows-target_arch+i686"
@@ -1054,18 +968,18 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:81c27a7b853e4d2f02314dbb6a7f03e3cef84ea6"
+    treehash = "sha1:ea873d63206db12cdbb4447b3a5faf07b808d0da"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:b8b40097e277787741c0d72faf1719f86bc1e6cd7e2346049dec063df1960a78"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_os+windows-target_arch+i686.tar.gz"
+        tarball_hash = "sha256:1170251a1aaa441e6de890f47cf7715a1dc2e14b0f0a664e6afd6b4a996af6fb"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_os+windows-target_arch+i686.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:fbd684dd87219b49e07d62cc3aef97e7f5022b98"
+    treehash = "sha1:71de9cd53fae2d41991c4aa96565d87314436c4c"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:26c4222dea711780335408ea9917cd652226a0325fa880f5b5dd3f2a7b5432a0"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_os+windows-target_arch+i686.tar.gz"
+        tarball_hash = "sha256:9fb901039eba48401f230c2d6012a3c6dcf7c77a31c7a4f408e5c85747c5270d"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_os+windows-target_arch+i686.tar.gz"
 
     [[builds.products]]
     name = "ar"
@@ -1116,11 +1030,11 @@ src_version = "2.41.0"
     url = "/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:29f5d590d63525e4be6da51d7407005d6a95660c"
+    treehash = "sha1:4ed2aef09e01dd7643d45e4906a179268a1d231c"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:6863b4625a0eaf8e83e9f3cee57faef0d3949b4a130e76116be9b63f9acb29a3"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-v2.41.1-x86_64-linux-gnu-target_os+windows-target_arch+i686.tar.gz"
+        tarball_hash = "sha256:133293634061aefb08cf9d77424c32b31a4b7e0613fa232955d72b2214af4daa"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-v2.41.1-x86_64-linux-gnu-target_os+windows-target_arch+i686.tar.gz"
 [[builds]]
 name = "Binutils"
 platform = "x86_64-linux-gnu-target_os+freebsd-target_arch+x86_64"
@@ -1140,18 +1054,18 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:86fef0431a8e88ea87329f5945f5bbba0222b68d"
+    treehash = "sha1:d4fa5e73f33df1be639a396a751f1e665e913c5b"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:69daf5d31e2bb7f0418190334c58b49fa1b44b4a2fed0d049d1019a2aa241044"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_os+freebsd-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:0cc3d9165f6e59b81455c7379163d5626ce9705da868eb23083fac6d05291813"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_os+freebsd-target_arch+x86_64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:356f2709ea32309d03a466bc064c8f19c9cf887f"
+    treehash = "sha1:17b0d7c0afd1733cac5b26f9f15862c69b45dc79"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:e23857a0a11bf25bef4061460e07a63df6ab6057d947c25edccb15615f2d9da9"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_os+freebsd-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:eaa3b42cd9dcd51e9900b349b10bb753e318c4c05fea049d97d645f0751e2a36"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_os+freebsd-target_arch+x86_64.tar.gz"
 
     [[builds.products]]
     name = "ar"
@@ -1202,11 +1116,11 @@ src_version = "2.41.0"
     url = "/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:4bc9501ef6e2c1493d7a531025bf7b10008a5513"
+    treehash = "sha1:fba05b0a7938a0d2492f0dc362c19726d7148627"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:e941aed9ccebad6344f630b749714a522832e40a7feb9c3f2ed938ed0e0f1839"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-v2.41.1-x86_64-linux-gnu-target_os+freebsd-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:0bc013c345759c0e0af3db0ddb8815d5eedae1f2f1c2352c43b489a840659bb9"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-v2.41.1-x86_64-linux-gnu-target_os+freebsd-target_arch+x86_64.tar.gz"
 [[builds]]
 name = "Binutils"
 platform = "x86_64-linux-gnu-target_os+freebsd-target_arch+aarch64"
@@ -1226,18 +1140,18 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:ee7b1623da15abeb4efa3119595151ea38fee941"
+    treehash = "sha1:5739acf1a3ebff591f882baa4530180638f5aa18"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:43fc5878ac3c530705b72def269bbdc8c80cc4854754172a4f4af07e32542dc6"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_os+freebsd-target_arch+aarch64.tar.gz"
+        tarball_hash = "sha256:ce24aa7975bc4ab8eeef76831644d73890b356a1fa659c42e55e235d6b57a169"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_os+freebsd-target_arch+aarch64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:a37b114f8b171cd674b3ef5d8615cc7fb1f5702e"
+    treehash = "sha1:b494ccd5787accd734fd2b74abc4378704c7e5ba"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:259c08430fad8b0387f8e81ece9b7a8068e90507a2abc1969cc6d52b83036984"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_os+freebsd-target_arch+aarch64.tar.gz"
+        tarball_hash = "sha256:f9c53d2683189cb3a3391e90a5f6d31e236243d916470c6fd157ae58efc2a48e"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_os+freebsd-target_arch+aarch64.tar.gz"
 
     [[builds.products]]
     name = "ar"
@@ -1288,8 +1202,8 @@ src_version = "2.41.0"
     url = "/home/sabae/src/BB2/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:f8437a70775cbce47048bc55bcfd7b28316db57b"
+    treehash = "sha1:406bdeebb8fcb19ebb55c62c712a6f25a5831040"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:b7ca0cf338d9fd7f9a8cf81fac8bc2a9c687cf2d0a287dbb92148d8d294de3a5"
-        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1/Binutils-v2.41.1-x86_64-linux-gnu-target_os+freebsd-target_arch+aarch64.tar.gz"
+        tarball_hash = "sha256:459f1e841866be7dc5c9fc2adc8e48d528242de9d9f99fd5dc2e8f63515d3a3e"
+        url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-v2.41.1-x86_64-linux-gnu-target_os+freebsd-target_arch+aarch64.tar.gz"

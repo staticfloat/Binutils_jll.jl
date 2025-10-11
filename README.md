@@ -16,7 +16,6 @@ The binaries for `Binutils` have been built from upstream sources version v2.41.
  - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("x86_64", "linux"; libc = "glibc"))`
  - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("i686", "linux"; libc = "glibc"))`
  - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("aarch64", "linux"; libc = "glibc"))`
- - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("armv6l", "linux"; call_abi = "eabihf", libc = "glibc"))`
  - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("armv7l", "linux"; call_abi = "eabihf", libc = "glibc"))`
  - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("powerpc64le", "linux"; libc = "glibc"))`
  - `CrossPlatform(Platform("x86_64", "linux"; libc = "glibc") -> Platform("x86_64", "linux"; libc = "musl"))`
