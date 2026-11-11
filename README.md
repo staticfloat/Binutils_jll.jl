@@ -8,7 +8,7 @@ For more details about JLL packages and how to use them, see the `BinaryBuilder.
 The binaries for `Binutils` have been built from upstream sources version v2.41.0:
 
  - [https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz](https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz) (treehash: sha1:c70156bf6994f968b170ade0ee464325efb9103c)
- - [/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0](/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0) (treehash: sha1:516947d14ab706304c2b1e0e053f185453959d53)
+ - [/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0](/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0) (treehash: sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c)
 # Platforms
 
 `Binutils` is available for the following platforms:

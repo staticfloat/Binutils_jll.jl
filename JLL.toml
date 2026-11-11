@@ -23,17 +23,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:969abdc5075e6a29bd3e82811d07f5d3f4009bd8"
+    treehash = "sha1:617bc29b096597a140d45e7f383c542ffb2d2b1e"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:21e68276da79113fb55e77d75f8563742251f1424076f74fc5c7fe216421e378"
+        tarball_hash = "sha256:11483be464dbe089c9afd15e6e3a9b10fc74d9c0c55a4697e1b6b05020a7312c"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:9c38556033ee23ecd34251d4375f6453fae807bb"
+    treehash = "sha1:91fb96371386d6a51c44b2a6b8ec782516555f86"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:644535b3b94517a08d9e20ed94fa021ac631ed9e3020f0699b9bd6fe99c237c0"
+        tarball_hash = "sha256:80e50d076b4de5cbfca2b73f24bbcdcb2a7e49e502cfe0bd83e9430790f3ed3a"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
 
     [[builds.products]]
@@ -81,14 +81,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:e2b957edce07c084acdd0003b47ee76f599d6589"
+    treehash = "sha1:9623b390cc5d577d7127d2aa275ea6ae2c94e2d9"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:e1d47aa0129e790c7213bb7c735ea087dacf21afe4b2d93a0b7d42e8203ac456"
+        tarball_hash = "sha256:024221fcc8f5607775df6e0fc72e5d9fe61cbeeeffb0747ac7edfae1f64bacc7"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -109,17 +109,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:c92682109990a778f927e59b5e081a9bd0b26255"
+    treehash = "sha1:6f875ef77884a1341afc03262a363e5c4058bcc6"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:d013bf6f2671e5c52957117c12de73199a2cf1d1dd256cb4d88ea3024fde2d16"
+        tarball_hash = "sha256:9f41324d5046fff26eeef7a04ef1283d58528bfb8f1b348ea4ae6751c1044c2a"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:316f732565a32a0e95e81e3364e65f80f86e2c63"
+    treehash = "sha1:d2d4b840bd9ff5324940afb492b93e52157398fa"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:83ed2bffc411da7a246a1f413d90a50d669088f22df418d082a9f3a2aa620bc2"
+        tarball_hash = "sha256:f5a2f9ab393fcdd5565cc90fff65cdbf326c80d457e68d59f280eeb966dfdfb9"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
 
     [[builds.products]]
@@ -167,14 +167,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:05449ebd36aca688bf5dac4ab522aecec60051c1"
+    treehash = "sha1:8efba7364740f70b848c5c7707a2719fe4f0108b"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:aca99010b9475bb417dc0df84c25876aa0779cf598a727aed3eac8bc143e2434"
+        tarball_hash = "sha256:f925100fbdaf98630b149e7b06022d7cdff2cd8f4a4072ac165bd5a2eb866d96"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -195,17 +195,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:798a8d7a41b4e99a42eef77ad1562372e77ab4ae"
+    treehash = "sha1:6fd007fa9b44f8a001baab8cd72b2fdb4137321c"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:b8ef83698b25e8b1c795407b42ef77317370e248310bf3b4b4e8c3a7b9c4024f"
+        tarball_hash = "sha256:cb2a5ef83da52dbf2402e6e9aedbe7fee00d92748a5f5b47dc4f278b041b7fa7"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:4127e5c070e78473484f0bab4d0dff37fd1a49b2"
+    treehash = "sha1:44ebcdc91443659df3f9c04b11a73635abc07c3a"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:1f6519a0914db9ae60f6a2c77dc972d0a9ac6583f713945d4e04a625437f7d4b"
+        tarball_hash = "sha256:59af3cca4713f89bb5c650007cc86d353cb7694abee23f026310dedf1235984f"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
 
     [[builds.products]]
@@ -253,14 +253,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:0215a719779db0432632c0754b574b22da91a72e"
+    treehash = "sha1:de2743be3a7f274667e39614d3c130292e0ab901"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:1a2e84c38f7c01830767660fe511ffedaf36b14ec44a89406af1c8b1959c6f13"
+        tarball_hash = "sha256:e4495d91902ebf03c80cd8b1aba5369a7bff87aaa2b9b9ceee92de793cf4f9bb"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -281,17 +281,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:5f5769fa4842e0724a517e7a979f08fab51bb1a4"
+    treehash = "sha1:996084c5f7a6bd94ac12177c69c6e1395bef450f"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:06e3c71785e24d638acdbba7e6c9f87fbd8320932d09c317d819fbe10797d5c0"
+        tarball_hash = "sha256:e10f09d56071cd295b1889f8a97bab9cb98385d30d4ce40a375aa02e6d1f3494"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:8162a7d76a4d5e9ffd98dff3a2cccc084b0c0282"
+    treehash = "sha1:4d24b7a28ec17cdec1cdf7b75718e92400d3412f"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:f1fc839706fea674b8f9511077d6e019a9afa0cb09110a329ee5210d9e73f5be"
+        tarball_hash = "sha256:c47a1ba2449030f4d8e76d9d20081e47a42ce246e49f8f09fb2c275f1a30cb24"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
 
     [[builds.products]]
@@ -339,14 +339,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:bdff47257a0d57bda1213e4bef863982048c70e5"
+    treehash = "sha1:fe9f29caf9f735ba91099987a01150cd7cd16e75"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:494e408c19082b21b0f2aa228d4d7abfb31be1ec7a7196ce2eea67e8beba177f"
+        tarball_hash = "sha256:8529544b8913b57d614f3e0391f854065f7bd1934c65ffcf720a810119447efa"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -367,17 +367,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:32b5758aacbad0204e371227cad03f303871d1c5"
+    treehash = "sha1:c6024befaca70c206fed9e352dd16034e8d49d87"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:3cba9afb57acd8050407b68466297613d0d838a6d1b5c441bb1831213c43f802"
+        tarball_hash = "sha256:22dbda4fb0ad065bd25bfd9ea5a9f73d433c19ac2825101b8603197ebdafe789"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:2667bfa08ff536a7b0cad82932c181fd5bdc7c4c"
+    treehash = "sha1:6098268288336763b0f4202412fef7268d1a5fde"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:fce9332625afbb51404c33994b3f2029f09f6e0c4fb3e681c05bf2e7be64ef1f"
+        tarball_hash = "sha256:2198c231a019270c0ba33cb61ed175d8e8c5ac6cf9c73679280b97d2353c495b"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
 
     [[builds.products]]
@@ -425,14 +425,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:cd0205ffe04d10323bc338e734e60656c856b2ad"
+    treehash = "sha1:432291cc4cba9e08b9cc6a1101405244a6af8ebd"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:ea3fcbc9d103af72dca119980d23d4dac971c9569646e9f006a4bc7a9844c44a"
+        tarball_hash = "sha256:dff058c71d6d21156935f9a3ca0e984940a93ba0471a8e91bd9b64b6fbf14bea"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -453,17 +453,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:6ae5f0deaca1d0c23a64754c7200449814030b97"
+    treehash = "sha1:70c06c7fc0aaab69c8056ebff1932325eb453f6a"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:653cf77ccf244e8076e74f85f2f1b8b88ea456f4997a803d03dec4bca5f3ff25"
+        tarball_hash = "sha256:e6885efdf8d458214c97e488edeee7074d411f3391fed8d70c1a26522a20186d"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:16d1234be973b002717ef151bd0deab501f59d28"
+    treehash = "sha1:d9a4b53fa14e63c1fbca853ba182314f39438aaf"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:6beb5f7f8ba49d2f3576dd9d3ce22a994f668a90edc2dc339efbf3a2f6410beb"
+        tarball_hash = "sha256:191c0e3ea0ebb089eb59c35a16549af8ece27b722c49aeb0bc8c320d68803194"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
 
     [[builds.products]]
@@ -511,14 +511,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:a5c044532c953358e159347449da210cd39bb785"
+    treehash = "sha1:2489ada42b7e59d9c424badac75cbff4024986ea"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:a5104ea67faa3866545d6521af98dcbd3511e0fba11965edad41bd7b7c6f1e8a"
+        tarball_hash = "sha256:4398fbcc2da1842a180b791551368984f1e35af04a2ea75d30e561b5a7450197"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -539,17 +539,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:befce9381bc29ecb1905671152e9e7be2260cb36"
+    treehash = "sha1:e28341996f988403c2da39cac1ec71db7c2e66ce"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:ede1742c64f4e3168f23bf09bf59a145ce77ad922396a07d07e405f89f44e492"
+        tarball_hash = "sha256:d045e7a90f6beaed0fae0e2f5394e5a456133d5aa4488e9b00b15069a1258881"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:2bc0413206df9062e55a86876fd2f99610a2f616"
+    treehash = "sha1:6c964f126ed84e7519ae77328da04d7c14b433b5"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:c6558eb386302c15e57391b19fdd7919e6537d52b477bd67f48fc68df7473b9a"
+        tarball_hash = "sha256:e0205c612607d15a2c2736754d749a46feada9ce91f0c6e63dc52e529435c66a"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
 
     [[builds.products]]
@@ -597,14 +597,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:19dd436fc3236ac791196c6e8083e2fc513f60b6"
+    treehash = "sha1:59dec376390c6998f49662ceffd21c0a6f3bd211"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:d2c775a1becc594cea5d323df711bde851a7866a807fe11a0978a686ee9c90f8"
+        tarball_hash = "sha256:96b60fe623a29ea379f627cb2727017a5b03c76bd5514f04ac4f723801e563dc"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -625,17 +625,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:01cf4f63c74763f7cec30f6c430a816786aa3eaa"
+    treehash = "sha1:1b9e9b051cedd72350268d7d20ae3fc172c5c5bd"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:9c3cc261e4e5df3e1f13318e062f197901c636ecb1d3b34cf7bb6d4943170210"
+        tarball_hash = "sha256:84beabdf82d227138c848ebd5a21c90481f338fa1eaa16f0a964e1399c817b10"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:c9c8bb53688f54a44876da98413480ad55fde8e6"
+    treehash = "sha1:70c26c1cc87158ee13dd654f2476c325cc73605c"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:d7f7ce378ff614bd1db25ef5802bdf5fe887144762f5c67ffa180cf08fb8f00b"
+        tarball_hash = "sha256:3d91ce119eb634e64547f82e20ef228ff7f0c10bc025a7c5aa275de0f431998c"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
 
     [[builds.products]]
@@ -683,14 +683,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:2562d6c86eb5effb5e8cdfa48ea777d0d9a29cee"
+    treehash = "sha1:4c884f44201b8fa1bc7a742995ac68c7b2780068"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:12070eb279a19c69a77e5f3f0844747fce389bc86e057898d3fb85f98b15da3d"
+        tarball_hash = "sha256:ba39b4ed1bd43c33334dff2a47c297e9a6aec027391d95fb0e74704e8738b567"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -711,17 +711,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:4745f3dd8a261a701ba990badee339939c564bed"
+    treehash = "sha1:2ac2e82002329a9d5ed6b00ae7a38f0c641010c7"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:6c3fda70d8aa05f9037846898d38d79e7facd50b88c1c6436dd6dde66497e6e8"
+        tarball_hash = "sha256:498e3ddc0aaaed937065c0607e633876762c1085aee504ae5a7b9ab527191162"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:915472c461b0d0537b75f7b6093d2097789a66ee"
+    treehash = "sha1:66ab5b47e6f535b7eacf33d0ec7ca521be80eac4"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:b111fbef04b1ce10b7fa7a6da119a267e4d7a6906f6f39dce6f1bfb8a9c4afef"
+        tarball_hash = "sha256:2ece484a79ca526a05ef89f7ee9ac3246d63e51805991823ff5c6187a3a217f0"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
 
     [[builds.products]]
@@ -769,14 +769,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:7d1f65173c2d3b31f0589c9d869a73f09ac228ec"
+    treehash = "sha1:332e245342d2947cfc9bba7003b5cde1e6a3782f"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:486aa35ad2fc306d4f8557b409aada5d3b9cdb7d42849ca24a566777e46cb5ee"
+        tarball_hash = "sha256:8a4293446ed732b16537411ec13993fe04a32755597427b2d56510b6ac5fbfe0"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -797,17 +797,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:746def54c738abf3a245bdcd81d8687715a735c1"
+    treehash = "sha1:ca780e2721d0d0de131edc9a519478940fc38fdc"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:446d7bc7686a34bc374cd3b4e32633f3959bf63cc93935d6392e69e9a2371160"
+        tarball_hash = "sha256:3cf01465b15b92fea31a74bc834941202122792b525f1d5f85807171a981f3f0"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:233fc46143aea89c64404f0b0875c69b41e11108"
+    treehash = "sha1:999de40726cfe658a6e55e031e1e020a06c8ac0d"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:a9845d8211292a17349d6d7fb7c90c262d50867b7e10b4f05e082ace77ab926b"
+        tarball_hash = "sha256:472c6cb24d22dba8d32f9ceae29796a9b68877ccb58a9d44f85e2544f403ef15"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
 
     [[builds.products]]
@@ -855,14 +855,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:b00d00971147907025d1a0240529c65520f444cf"
+    treehash = "sha1:0874a5c7d527ce9c70e95820b727413efffe9d68"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:c1152f7cef4a6b626805cf8de898a012499ea6ded4fac5dcdb4e4873ac88e3ed"
+        tarball_hash = "sha256:13cd79df08825cf3fafa13cfcdb2da92a80bd927b1da350bc21a23bdb0d63c08"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -883,17 +883,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:f7ab8601387727a3c8c1fc1ea370ee6201ab6d0a"
+    treehash = "sha1:65cc49acc4b0739630095215b2d2f7d5d2d551fd"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:6ffadc2469abc3c667565494c5e1ab70d6e036d31d72bb92cf6b65a3e4a3d78e"
+        tarball_hash = "sha256:52d9262669b78b51a4fce64a7b581652a857d1f8f86aa252cf0d5225acae3f11"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:d3091b0b79005aab87bcce70b8b214f0cbb3c4e0"
+    treehash = "sha1:55d62b56e86e1a422bc98ebb2bb9ecec7afa6852"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:3440bd0b2630df80f0bb1a7d1e3945748f8e110050c1d2822c3294fc392fd219"
+        tarball_hash = "sha256:29ec04cd1010c5083b8158cd1d5d8e5de1ee3ccd8430aedb4517e1fef8851fce"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
 
     [[builds.products]]
@@ -941,14 +941,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:9d6ee12542a75ddc035684b8d9b04ce1a419ac11"
+    treehash = "sha1:771883bfbce0152c40db73ded57faa12aac2b796"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:6c427524b55bdac37cc167d7e98759027793b89cc1ac429631611c425d932d68"
+        tarball_hash = "sha256:4940982f60f124a85ca98aa5a1e1c3b916f31036e496d443f6e0b2af715ae7d0"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -969,17 +969,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:7ee522aec7c091b2866c66e94dcee58677299211"
+    treehash = "sha1:fa7d0903b9e4b22707a41a924d978d615ef59869"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:907dede8bddabeb9ff1f12128c2b19a0aec626571505fb7c084d911ebefc11a9"
+        tarball_hash = "sha256:a93bb61c4f92290b02a09afe9b1dd503c7484206d8ae62baa684f4542b5c89ef"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:44e214d20ea0ea3865bc0e5f4f5bbd261846a413"
+    treehash = "sha1:42eb2c587ee4c32ef9b337bdf6ee0c5370a61844"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:41cae42fa4e0695d67dae6b6fb7cb8ffd87bebaba89c5de7a7bb889025dbca59"
+        tarball_hash = "sha256:9c32023cb8dcd4399f91a93bb16bc174bdf03eb08843dfd978ed39ff2a1203a4"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
 
     [[builds.products]]
@@ -1027,14 +1027,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:021bb6b4bd61b3f0de88614640fb35db2695ff70"
+    treehash = "sha1:51c6b6be51ef7cf36f040401e4ce2c00ca0c6ee9"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:26a5ba00dc84ea6d2b9b30f8f3478602e79f1c3ae854a0973fd45427109f1abe"
+        tarball_hash = "sha256:fe633d1e0875107b8e9993e35b7ba3e27c0cf2caba7ecfd91d5d4528e6e616ba"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -1055,17 +1055,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:677325ae746ec9e7c4ed81c26ad1c11feb46b468"
+    treehash = "sha1:8b70ebe0e079c17ab1dcfe6e45610517806cdc95"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:6958483a1c7547684f64ea675d6c79251ff9a92e71de4c99c8b1932d4b51f878"
+        tarball_hash = "sha256:144c0c4f8ed7dc76a3663506c8fca854faf279af35884edb3a3bd8ba2ccd74ae"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+riscv64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:fa65f9c8bd1bc48eeb7e93048f1b5776986afdb0"
+    treehash = "sha1:77766d8d6bfce7a7c522d6973fc9cd56d9db1f27"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:01de92569d35ee9a8fe05ae8f1464e0a433059b7a80421721010b9a36e73d812"
+        tarball_hash = "sha256:7d4da978185453862d6aca05686168cf5e53bfb8c56a79a3170f2c086af2fe48"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+riscv64.tar.gz"
 
     [[builds.products]]
@@ -1113,14 +1113,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:3cd6c4d916e9e1eefd63b89b0570a02c16b7e7ce"
+    treehash = "sha1:42adf1ce4f912cd73cf2149fa3f60c51d46c8f8b"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:7add9d63fee2a2cbd9067d19c8eaefdfb5b40ccf2b0da713452814c50efed83d"
+        tarball_hash = "sha256:5d0cd952571c498ba684971c6a3f4db230997cd9c651f8304e3ec5d2c65f9a8e"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+riscv64.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -1141,17 +1141,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:f9163d4da36b8d8ba62852523f6b9583a54d7dee"
+    treehash = "sha1:a45f579b321494bf79c6c8c4b5c1927708d11df8"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:faefc2a0f0d6112a266562fb093cf90eeaf421140960ffad989b3b8e2f9ff54b"
+        tarball_hash = "sha256:d63d2a51d6e5d077b60f2dc5152d3bad0f2a2ed3870352acf254acceaef110ac"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+riscv64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:4f0354a2e4965f3ce91c8d45f0fae63943ef92d6"
+    treehash = "sha1:e9e7334a19675bdea722e81ffa79896bc075fa9d"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:7124386384dea982a4f887d2f8474af36d64a8fd583f15045f0ff4ffaac304b2"
+        tarball_hash = "sha256:1ddc3bcdf1386e64305ac2730188417df4bdc7a82c012c500f73313da1a7ac52"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+riscv64.tar.gz"
 
     [[builds.products]]
@@ -1199,14 +1199,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:06be3cd231379edfd11302176ad9f85aad8dae1f"
+    treehash = "sha1:521fb06211431d395781efb5e01b91ab2808d3fa"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:58d2377e0ae3b84d163ce319424011bb94a764c26f8aae5397214414ff2507fd"
+        tarball_hash = "sha256:a62c6f0aea159241f41276bffb77e5d37349deb35514f9b7d464f1ea8f0f1f63"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-aarch64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+riscv64.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -1227,17 +1227,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:c2d6c5564e70bd2d61a17ba08f2a15b73520fd9b"
+    treehash = "sha1:9e22feba95cb3294ff9397af13713c0a85b4ec7a"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:36808be56ec3a50e4f7cf3459c002c08d1990abce897fd7c23f1ea26025263d9"
+        tarball_hash = "sha256:9dab3d7b48f7a5a0c1e34d12c8d2241c4794d93cd4b6296b2168a707bef0ce1b"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+x86_64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:f08247d3d5cd890f60349f17d812296fbc2c677c"
+    treehash = "sha1:7622040c72db6102329fa68c6b50d9a557af477a"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:92b1a876d5fbccceacece6a2d951e588d82a08d5607748efe96cc687ea9e3455"
+        tarball_hash = "sha256:ba6a6c9c60a9e0fd4741b15fbbf8f29fe19caf2aa821357936e003df676cede8"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+x86_64.tar.gz"
 
     [[builds.products]]
@@ -1285,14 +1285,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:ba86fd6c00e0f06cc26670e53902b30fb6ccc779"
+    treehash = "sha1:d2f280fca94da3ea52ea1916314bd318569ad2b8"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:ff621168a36cc63827f3c4c352351f5fcb73a4445e5f87107c9fca932dc8e392"
+        tarball_hash = "sha256:7583e518524f1cbc5720435b1aaa4992ebdeed81a62020bbc06743ea789da521"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+x86_64.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -1313,17 +1313,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:c52cb89a1d2610f0031e920122c1714909ceeed3"
+    treehash = "sha1:9fdb18e65e7e81719b79e8a6eb79f591a65e04f5"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:e933e9591f24d7378aeabf23dae26d6168a0e741bb26dca7a257d15dcc6a3ab6"
+        tarball_hash = "sha256:88c33c0f15105cb97c42847c7906a3780699e3efec1962f1a5365efcb884649a"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-aarch64-linux-gnu-target_libc+musl-target_os+linux-target_arch+x86_64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:5e8f743a3344e609bf36a08e28d7c426fd3cf0a5"
+    treehash = "sha1:e008e498e5ce133f61c1468f3791475b2101cb53"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:e0495e0882b74afbdf32f20996cf3dc2cb8c75a9969d7e8eddcff46bc9678565"
+        tarball_hash = "sha256:03783dbc4b1fb396e5af7aed155a6f01202b587299b5970bee0784fe8e38caba"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-aarch64-linux-gnu-target_libc+musl-target_os+linux-target_arch+x86_64.tar.gz"
 
     [[builds.products]]
@@ -1371,14 +1371,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:e7295230892e8c7d8aa697a37d38ee36b39c3eca"
+    treehash = "sha1:9074911f6bbb85ee6bb1a06aa217d770766c93a7"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:f475bc0f1074202b555233d6b6dee247c82169734dbfc0104c1c47b5e77759a3"
+        tarball_hash = "sha256:4b64abb6b05183d89a09741e18300c13a8900fca6687ce1b8a6d97c1ce6dab29"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-aarch64-linux-gnu-target_libc+musl-target_os+linux-target_arch+x86_64.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -1399,17 +1399,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:15a7bf96ea73a4487260a830459a44010d48c928"
+    treehash = "sha1:bb333d11594e85c0b6806f885021d7f5609db7ac"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:6e9c260f8363a5cc214453f3e589191bd5a780c23a6e8db399ced2040ad3e524"
+        tarball_hash = "sha256:1f540fd339ce0449ad3f8acc584041917652273d2f322075280118673544d55b"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+i686.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:db570e1c913bf3d9b82b2580b7a7fbe40f8e6a2e"
+    treehash = "sha1:2f0a4d387ac5014e716cd2af513deb190f190491"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:8a34649fda4f54029f149e953da9ce00cb92fdf87c0a21ba49be55cf1785ce87"
+        tarball_hash = "sha256:c85ea29881ec1dd27aea7f2d201189dd6f960287b96065fef8f6c7e4647dd34c"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+i686.tar.gz"
 
     [[builds.products]]
@@ -1457,14 +1457,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:d05986c703569bbc2a78f5c331789e3e881a61ab"
+    treehash = "sha1:68a7ab5999abdd860a9c4fe18f3e692dc20438bf"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:bcda4a2d923f0f68f228eead13e197939dacde369dd361ddff452f2f15c327e8"
+        tarball_hash = "sha256:412c631b37acae8941ed6fc2d732b043640f8952aad150368375151f316fc01e"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+i686.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -1485,17 +1485,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:0ed3acd0ae60922c563c37f2bea10a3f32e462a5"
+    treehash = "sha1:c082c270b6840a1b8edea87df3549cab30985df3"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:f1f9c56041b9df7dce2eb97c0f19a45c25abc9938b6293b5b77237051631ab18"
+        tarball_hash = "sha256:204aff6d7387b726ccd1f08aa8b324e0538848ab884df469e6f6f9a0e71cf617"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-aarch64-linux-gnu-target_libc+musl-target_os+linux-target_arch+i686.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:15f7cb32dcd95437e7cbc99f25ad546a28591ee4"
+    treehash = "sha1:f6ffd47cff5c6de31652fd60263df4f8114c45e1"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:0a3815e5c2895948821d35dbc705b7bc393885aeeae69c9c49df703bd324c9ff"
+        tarball_hash = "sha256:9f99f5c386998903c94d888face9547d06cc098cff51a3fa3e268e41118298b9"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-aarch64-linux-gnu-target_libc+musl-target_os+linux-target_arch+i686.tar.gz"
 
     [[builds.products]]
@@ -1543,14 +1543,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:9981b23aa3293db22e1d20bac03fc9fb7bc2f688"
+    treehash = "sha1:66aba98ae75330431b4834721fb15a7ff37541e9"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:4b3ef880434993714d491b9a51d0425b7d9d9c129122abe0c3786a92d81499b8"
+        tarball_hash = "sha256:3093631d5a57217b7ba9398ea2eb75f6da0f7fba678874beb7f7ccda2df2473d"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-aarch64-linux-gnu-target_libc+musl-target_os+linux-target_arch+i686.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -1571,17 +1571,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:f61265c66e41e776eecd9d5b314f16c30ec8f83c"
+    treehash = "sha1:5ec5c2f8ef6cce841a1052a9dd13052f66c26d32"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:432c1792cfbe843a1715bfb40c21da7105d0b008be21be30e0bc1900e259e27d"
+        tarball_hash = "sha256:69d5d1a1403dee07719ad3fec8457edcf1277a887b6b872c0a363aa27bad0051"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+aarch64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:82960462e43ae77fc644ca0970cad3ab243cf187"
+    treehash = "sha1:962adaef4bb52e5ca6d3f4e99b33c9cac41f0ee8"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:fd6c5b78b9e768ef4a212598e5795e48119a94f8e90fd75c3a83828ad531e0d9"
+        tarball_hash = "sha256:3d415a1b19b64ddda273796f5d6a94b91d7d205cf07d29ed8f9268b572658b1a"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+aarch64.tar.gz"
 
     [[builds.products]]
@@ -1629,14 +1629,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:257da4b4048a3e302853ffb199491e5d79219657"
+    treehash = "sha1:38fefb2f535db1516d359f4a99e8ad7ff971ce26"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:2023cf43e0bd1cd801f5f67a893c0f7235ce0a3671c68b4304081ac1902a97eb"
+        tarball_hash = "sha256:43dd51f4c389500a485a77f62d592debd9b154751886be19e1e1a5f461abf2c1"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+aarch64.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -1657,17 +1657,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:cc40a93cf4d6c63849a079e20d478a864efc623c"
+    treehash = "sha1:24cfafd1692c309f291708628755c40e066de5bc"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:5f3a25a0c5019a56daa15074e4dff64e618ca4257996a7d4dc0c43a092a7341d"
+        tarball_hash = "sha256:d5fb136fd15b4ec6748b81162d1b501656ce5b220c4326baab98d5e7a26be171"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-aarch64-linux-gnu-target_libc+musl-target_os+linux-target_arch+aarch64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:6d376b13e400d0d0f94bd3475332e0be62920a2c"
+    treehash = "sha1:295a0035dfcd201b005d4cdd941dc3aa7e475948"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:df8f8ce57188d25886fc63e62450d0f0260930fd98f6bf0c4bb15f942c2f09be"
+        tarball_hash = "sha256:149f5e83cf4525728775cc1434cf13c3862549dcb15f798e9d2343f2bb3ccaa0"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-aarch64-linux-gnu-target_libc+musl-target_os+linux-target_arch+aarch64.tar.gz"
 
     [[builds.products]]
@@ -1715,14 +1715,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:fc213d6361f856d21fe689a87002ba076f6b6f83"
+    treehash = "sha1:63beb31d0b1af876fc375019e8f5284858a42444"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:4f8934e1e9b556cbbc96b0d5225f77266dcefdaf413cf6cf1189033a2e077937"
+        tarball_hash = "sha256:37b4d1f43d97e355252700ac36bd22d3d25e51915781389fab28650c7596c317"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-aarch64-linux-gnu-target_libc+musl-target_os+linux-target_arch+aarch64.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -1743,17 +1743,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:c4b720d74fc9df4e4070e97b11b53fffdb9aff70"
+    treehash = "sha1:bfbcdf42e15fa40ed44cab69a49e5395797a8e66"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:187b994f1df2b7d55a08f59181b4286b195be937088effe166749ea7f15a58d1"
+        tarball_hash = "sha256:685f77242dc4fb46afbd3fc58ca793c767ad76afb9fd9bfa4b34f7f52aeeac64"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:f366d7e540719f2dd8974acc6743c0d45e2d61a3"
+    treehash = "sha1:a93a5e5d482451ae814f992937c31312fb2dc88c"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:fe019f58e0ebc54dd75c12c2c7f91ac90c0b52546b5fc1e42dccbe56d1435b35"
+        tarball_hash = "sha256:3c33832596ee158257a161a68e98b25c34ef95e32f5cd70e37a854ac1428ac9a"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
 
     [[builds.products]]
@@ -1801,14 +1801,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:02c1110a40f0f0f02dc7f5f47712df82e1f0328b"
+    treehash = "sha1:722bab6ce83d41314bf02fafa5186eda3e98877b"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:4dd554354eb6ccdae54e6c1f4b8fb21a7c49ef241dd7aa5c35a07e46cf9dbfaa"
+        tarball_hash = "sha256:3452738920dee42ede6929985866f5ed1d2cdafa00e584eb6709473ce44374ae"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -1829,17 +1829,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:fb064b18baa072cd3889f1dc9b93b8e57d0ee0d5"
+    treehash = "sha1:0c50c201009cdd967deef9b54a1f647e2becea97"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:f1ca244320120c5281ccdf62f5358627493c34b1910cd2e6dd4a0ff03f450429"
+        tarball_hash = "sha256:be4afa0e7e5ac33fc4adae24a1f1e2d32120d7d43509cbbee3b1ea839a206c3d"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-aarch64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:4c40ab2e0f17a99c6cd5bde18839ad381a163b87"
+    treehash = "sha1:b2b12b1961fb285be5b07b23495bafae8fdc6515"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:55fdf34c98f382699fe479deb35eecc09e5f6d848bc8f69864e3e09f8435083b"
+        tarball_hash = "sha256:4978e481c6fcb67ee0a06dd354b369ab2db76d5b1c007d335c2c2f1228556d5f"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-aarch64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
 
     [[builds.products]]
@@ -1887,14 +1887,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:2b1c43272c4ed31fd887a41dd8c99fe59c339e42"
+    treehash = "sha1:35e91fdedb915d6c85531b1bb23576d4eb3aa927"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:56e21a05c3d7a71fd9c81f776014e3b4c72b472eeec0d5f2f51e1e5997bfadd1"
+        tarball_hash = "sha256:bc086f2d1d389bb452e738d1ba81f4dcf5e6d26e8cbc0e14f01172411075424e"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-aarch64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -1915,17 +1915,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:6753137d9eb3c54a198ea22fc54c260bee09aed7"
+    treehash = "sha1:03919ac7b0a797224269e4f300079e2031028095"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:b85c8c574fc89ee522f28c907f501f5f55810900a0a8c0c92c5764da42723755"
+        tarball_hash = "sha256:ee1b9afb8b124c128c4d5dec48d2cbe5e2207cc4275e07363fb528c5944d411b"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:c60eca3d48145bf54cf021620ff42ba387866c68"
+    treehash = "sha1:1bb83231b8f11678332164266beefb9fc5cb813d"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:06e628e721b3e9fed72675b776fcb7136ed392cae5b2f813f0b0015a850da0f2"
+        tarball_hash = "sha256:6512319d38631f47b12a00d7e6f51b3bbacc7466713b1bbc04752cf4347be29e"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
 
     [[builds.products]]
@@ -1973,14 +1973,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:23683d564852351c10455a790253f0129a016af3"
+    treehash = "sha1:3889a63aae57e60a717290cdba25382d1645e872"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:b4dea0ccb2943eaa0cae34d1cac89907537048f629485a07e3835bc17480c9e0"
+        tarball_hash = "sha256:ddb07fe71d447836f433dee542256b4b7860d5911cfdb29faab15aeb54b27b41"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -2001,17 +2001,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:9c3384c37a8a59b492fdff074e31d6b4ac3b2d03"
+    treehash = "sha1:3bbea63f7d020674f223f6e9e072a5b8f89edac4"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:88e453850a4e87adf7226487a0381ac8aa8f3e53b41396c573a3d80e6f7353a5"
+        tarball_hash = "sha256:a46528b4a24ab00a524ab5d07e1554aeb740509b7ff7a3ae6fa580c7459b6d35"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-aarch64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:eec154926d60e172e735c2c2548d8592801293f5"
+    treehash = "sha1:d0c5109e8e88dcbb3b2e321772fcbca0ae42dd71"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:e148513e3e40c0ee5d120425b35e1d65fd844a9c36cfd0463bc9417d7777b265"
+        tarball_hash = "sha256:f74fe3dba7139ee96f171196e5c559c5f108bf3732cb3be51f74e07d529aa84e"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-aarch64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
 
     [[builds.products]]
@@ -2059,14 +2059,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:30fee7694bd3771625066a588efd8092211597b8"
+    treehash = "sha1:e20c2ce9202f3cb90ea23d7fac6a109e9e5a74d4"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:7676320990f5eabef491aa2d57d6eeed1312d43fe8ad700a3c64bfb4ae8df17f"
+        tarball_hash = "sha256:a28510fe6d8a3f989e3b3042d20a8bd572376dbda55eabad0e569ff0eae8bbb8"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-aarch64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -2087,17 +2087,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:82e6e50caae5ba892ca04b332c0dadc50923e5c3"
+    treehash = "sha1:d3a56c23553dc34f0adf35c2cda13958f763e4bf"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:6f4369161830b948f8184f7a0973f42047a12a649e69a42527019cc3676cb8c2"
+        tarball_hash = "sha256:30fdc4b08f4d544700e31e70d86839ad04a43bf1163042c60f47c7b980b8f99f"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_os+windows-target_arch+x86_64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:a0a6491c5905c6f9e163af829041380dafedff7d"
+    treehash = "sha1:4ca55a5e1f43fc099cc19951da9d0f48c23d5e1a"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:cbab741b96cce9d01eea07dc46ee63d7ac59a10823a8900d16bde7eeee59cff8"
+        tarball_hash = "sha256:d79eaa2582e7ed155bd4a1ed093066155bfc621f6fe4ac74c6360b04fcd13a7d"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_os+windows-target_arch+x86_64.tar.gz"
 
     [[builds.products]]
@@ -2145,14 +2145,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:a2f1d13c59eadb58b8b4789c100d6b8ed76b4105"
+    treehash = "sha1:002e62209dad78bd8b1ad4b13e31b03e67ff16ea"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:03061f4ab0d8c353969a33ed7ab8afed874f57db154eab918e0ea43f60709829"
+        tarball_hash = "sha256:b8f3a3cb6702d8126de0283a09f39eb1163f6511ad4a1bb42c744b672a558d8f"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-x86_64-linux-gnu-target_os+windows-target_arch+x86_64.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -2173,17 +2173,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:1ad0709c199fa00db255ab59e5d4ea84de85511f"
+    treehash = "sha1:3ee71d7745802207126eb172ede5ea190fb56313"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:0f68f54e6f680f1e22e1075a8fc4229387d06e558c41dd3b33d7afe70724a39a"
+        tarball_hash = "sha256:2f86360ffa17a6e5e2ac173f86cb10d6408f53bea02b9cc358dbcd84ffe0d36f"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-aarch64-linux-gnu-target_os+windows-target_arch+x86_64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:8cd357d9c7a23c170008c9ffd67d0b46b171bd23"
+    treehash = "sha1:d8e2bfb6fa985aed6d11dd800c0d7a12c5e35941"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:4d4ad14f74060a726298ab863c3a52bad2dac12094815399b511cd0db1f88aea"
+        tarball_hash = "sha256:cd7b36608183a554b2a83674c174563fd13e531d5c848ea249d87e5394181567"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-aarch64-linux-gnu-target_os+windows-target_arch+x86_64.tar.gz"
 
     [[builds.products]]
@@ -2231,14 +2231,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:0b12704a01321201beb8840c1316ff94329bfa63"
+    treehash = "sha1:1ed19e3b6ce1c46bec32cfdee7bc85c51d75966c"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:e2d027a8351ab4ac549cc9994cbd91bc7700512343cdf5227cb9a21800f584d4"
+        tarball_hash = "sha256:42e20c3d18e783bf7a4634342841ee8c822ddf13b777b8db8c11783b719c1827"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-aarch64-linux-gnu-target_os+windows-target_arch+x86_64.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -2259,17 +2259,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:8c0110f570fb9bc5d1710fa999d7deed28c32b2c"
+    treehash = "sha1:e57efd95b840f2be7a47451e7bf0eea9fea0377e"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:a87887db8f5012f82f344f73fcddb471d49e5cc1ff41cc2f7c3745228fb6959f"
+        tarball_hash = "sha256:444d6fedaa39347ed90f156be6a4d4981891154d2afccf5cbd7aa84023014645"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_os+windows-target_arch+i686.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:83cb1cb8d909ba0b2d76c14c431976bfbebd7114"
+    treehash = "sha1:80872b5dc1c5583195a0e23cdb735c46428ac055"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:82c81cd35e07976cbd63d8bcd62db664f907defae9c604374aee21530bf7a8fe"
+        tarball_hash = "sha256:0cf3c29306919ac6d66912220b16b691e913d700ba48540a2babb0c4e8c0eada"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_os+windows-target_arch+i686.tar.gz"
 
     [[builds.products]]
@@ -2317,14 +2317,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:f68e53b0c41d46b1c88fb28e82c8017f47c7a1fd"
+    treehash = "sha1:0b5f3af14896471edf33c3514fbd53c3dcebc390"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:cfe5d14b068c45192eddc3a022c402387d4e640aaa7c5f747a8e6ca715707263"
+        tarball_hash = "sha256:e91e46e863f3252dcadde12bca5ee9ae8ec935e25f258788e4de9d4b3aa9219a"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-x86_64-linux-gnu-target_os+windows-target_arch+i686.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -2345,17 +2345,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:5ada3757dad610141ef25b64bd1a7bc59b4402bf"
+    treehash = "sha1:8b151b040d37a8c62c73ae7eb920ffb050b74ce5"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:0d1a86e2146d875011ed6fb3ec4c072c431695f7c515107b0f6816439365e39e"
+        tarball_hash = "sha256:6e5214082019a58273aaeb5bdb53faac5251bcbe5e5f7aafe496e74d29f8e341"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-aarch64-linux-gnu-target_os+windows-target_arch+i686.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:df02cf87c77cc722cf53672e739805f4756dfd87"
+    treehash = "sha1:c22e1f123c5bf51ab66d2208cf5b09475d22e166"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:b9f679c3cf1e7802ef4d0821cef498cacdaecdd9d9462c94b322eb860165354e"
+        tarball_hash = "sha256:9bdb345b3b1c096f29f57964d85f46fcc44d1b51ebe1a2ea9bbcc33880d02afc"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-aarch64-linux-gnu-target_os+windows-target_arch+i686.tar.gz"
 
     [[builds.products]]
@@ -2403,14 +2403,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:0540c1ab32ace28527d68e3f3b0406111046efb9"
+    treehash = "sha1:50bf53886cdb4be3450b5af5dec0d8bca43660f7"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:e874139cbce7720ba5e6a1e95c9fee6fb9dae908d5bc48c3cb5bdd31f284dd5c"
+        tarball_hash = "sha256:420b4df2dfdd12f1e89397fbc0de31c5163da4fc9dedccf212c5b89d0e7f1d8a"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-aarch64-linux-gnu-target_os+windows-target_arch+i686.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -2431,17 +2431,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:917954063be5663b27e8e99a2eee8b901689f512"
+    treehash = "sha1:ff368a64301b8b5be1048287810956e19912a852"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:539e2472b725b01b92731435a62bb7b4d4e0f01ab78c70df624b6f0156fad932"
+        tarball_hash = "sha256:d646be805dbeeda140c7147d806c73e5f0d8e31e8f6da19eabcc50edf8d8ee7c"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_os+freebsd-target_os_version+14.1.0-target_arch+x86_64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:34002c97184bfe006d76a6d3080cc8ea4db1b73b"
+    treehash = "sha1:5b223716294475a71b2db1d9b3e9e8b582e241da"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:129c9fc3970d9ae8daad3b68bc0f93b7f26af1d05d0fa14838c4566e8a9b6aa6"
+        tarball_hash = "sha256:d99559ec2e43ea0c47718aa000b9f8cc2678d21354c48149dedffca762bb51ac"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_os+freebsd-target_os_version+14.1.0-target_arch+x86_64.tar.gz"
 
     [[builds.products]]
@@ -2489,14 +2489,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:29fc04bc439a69c61da79b3ad259920018f7274e"
+    treehash = "sha1:4ce47ca179422bc5d88b16e7c429d8731d43abc5"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:014542d827834e1ac7ca0f6775f802513ed7a8dd1bb832d719a528f0288d8625"
+        tarball_hash = "sha256:8b38f6aabca94139fd5ee7724342a48eb4cf9fc8113f5044b434be5acfbaa73b"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-x86_64-linux-gnu-target_os+freebsd-target_os_version+14.1.0-target_arch+x86_64.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -2517,17 +2517,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:ae7f1677ac55ea9e3ef8e59ca698d48c84e05660"
+    treehash = "sha1:8b636515468d02c4cd8c7d1e9ec0058de3b5d0de"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:24d34a80c8dfacbf402c1f0007e2dc255c4de2a7527f30f41b74bc975e709814"
+        tarball_hash = "sha256:86640e7e3865ee773d8f8054c96678684834bb621f7238494723ffe372d90d0a"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-aarch64-linux-gnu-target_os+freebsd-target_os_version+14.1.0-target_arch+x86_64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:925d2348bd314f952bbd6b0c58db41a587b7827b"
+    treehash = "sha1:ca9f459b8ae548cb5d9be347aef8cd35488b9197"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:3d03a4ef815bf41f7fe3251e698a10e07c1be1c7841a21a2bf6e29694deb5f69"
+        tarball_hash = "sha256:912c63cd550de098d50325bbb0351ba56131c1ee93dc534e7a030be4d940205b"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-aarch64-linux-gnu-target_os+freebsd-target_os_version+14.1.0-target_arch+x86_64.tar.gz"
 
     [[builds.products]]
@@ -2575,14 +2575,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:f16e13516f93de8f2b3e145477760dd242170f0e"
+    treehash = "sha1:0e55ac1324cbf16adb48385569feb2da21fa733d"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:8f442a92bc53ea39a8f9c59d8faeda20c141a4e83c58ce5700d24b040bbf7d7c"
+        tarball_hash = "sha256:e5cd84763fa7a1f2a4e6f3033da8b3babfa999bcc76bd23268e07be7394bd06b"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-aarch64-linux-gnu-target_os+freebsd-target_os_version+14.1.0-target_arch+x86_64.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -2603,17 +2603,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:2c37de2039f99d7f301b1f46ece137ce0b50bec3"
+    treehash = "sha1:39f54474e940832d5b45b7dfa137485b043f859a"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:b2cc87853df82ecfcabd00483f711d317a0124decc645af6405953226c55ba2f"
+        tarball_hash = "sha256:b75de0a3c8cfef5b716b5fa53ad0bcfc3d0aa664ccb7d4433d8c84e3f3df71ba"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-x86_64-linux-gnu-target_os+freebsd-target_os_version+14.1.0-target_arch+aarch64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:4591a3a0cc41e2c5b0f45c994202542965ae073f"
+    treehash = "sha1:b4b23b3c6e9340fb07445d60252720191647de3a"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:1779c9cd601ee1f8eb158a8b5f026e4e7a76f89e7d9939b97fbc003cc6cfd718"
+        tarball_hash = "sha256:7fd8eb220afe3b8ed2b782f4f6a57556c9f468de39ec160545ceaf07203e6293"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-x86_64-linux-gnu-target_os+freebsd-target_os_version+14.1.0-target_arch+aarch64.tar.gz"
 
     [[builds.products]]
@@ -2661,14 +2661,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:0745271954675fabcf7b7e3ca6c929f79369141c"
+    treehash = "sha1:8d2ba8d3e61480e3f47c818b686563fe7049c949"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:b392a66cc4087cd9aa1dd49f39f87c47e07f724c02b105c6f6d0d4e8ac803098"
+        tarball_hash = "sha256:a78b0997096e3656ad0e94a64bff8fe183d6444ad96a3d8efa1cd20d999c6261"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-x86_64-linux-gnu-target_os+freebsd-target_os_version+14.1.0-target_arch+aarch64.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -2689,17 +2689,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:8bbde3ac566a2281acb7062753d90a8a914cc8d9"
+    treehash = "sha1:fec28c076b5e97db00e6acfe6e3ff31e1dc43f9b"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:6c520763e7edfb1a9efa59c0b430ea6c6f30dfaff1339f32973af0e126d13400"
+        tarball_hash = "sha256:adc499deaf7945ea6a29d768108cbbdc0ece0a062b4ef27ddeb015011faf806b"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-aarch64-linux-gnu-target_os+freebsd-target_os_version+14.1.0-target_arch+aarch64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:99b52a4e0a07c08edacca314bc3e1858abe26393"
+    treehash = "sha1:8fde2f20b16e0497be0b0f54dc74d7fdc60d74be"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:d80b5696aa5b806a737fd8427fbd33111df0707964bfb3e202964f82c25949b9"
+        tarball_hash = "sha256:3a0d0aa11f3f114a2c6816ef0ce8d6447db430700278437738b1254509236185"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-aarch64-linux-gnu-target_os+freebsd-target_os_version+14.1.0-target_arch+aarch64.tar.gz"
 
     [[builds.products]]
@@ -2747,14 +2747,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:b2074a62fdc4c2ad5b1a24038ff01e8bcb91edff"
+    treehash = "sha1:2a57778aeec8c3b8562d831b867537ce37eb33df"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:b9bf0981fe692ec3465afd65632590d6b4e79115e522357063990c00cb6d80f2"
+        tarball_hash = "sha256:5fac87254d96df18fed140c3f3f8adb75a03cbdb4bbe68145747c335f1efc851"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-aarch64-linux-gnu-target_os+freebsd-target_os_version+14.1.0-target_arch+aarch64.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -2775,17 +2775,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:78c8136f25c0ca291dd4a0c8c42bc1bb1f9cd6cf"
+    treehash = "sha1:85c3291b52f5ec827fd4316f31b52fdaa35d3b56"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:8fcd545b7b01bb6d1fb13df8975725b1b96adc0fd7637093752409ce5acca90a"
+        tarball_hash = "sha256:66247000028549d9cc6e91179995745dea02e6a395bcec12f1e6e97372129b0a"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-i686-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:69c301b2c7a84fe07fa6fe19a2ea2b3139a08ed7"
+    treehash = "sha1:1e0671af793a4ed4355a3e69b672c18d6f8a1129"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:cc64e199ef03f4af21b6d55f006b37a6c63525e88fbd7cba4e09ac6a625c34e8"
+        tarball_hash = "sha256:654c6396370ce2d787dd8041bd6f6e8d829ce1e8ced0132a201c388d81dd2ec1"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-i686-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
 
     [[builds.products]]
@@ -2833,14 +2833,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:ff05535a0bb2bc22e86d8a218b5b6984c724eb94"
+    treehash = "sha1:25c2f658f387d771c76859a5eee0c200bd822c56"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:529bc6f2cbfa939775c9b2bb041e80ac76a5ca02a510089c994be57fd7dd2e1a"
+        tarball_hash = "sha256:36266f5a25a4bf7368b9e8c94e5a35f2181307c4d52ff887fe0594176a1153c6"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-i686-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -2861,17 +2861,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:99f293a988f8e631fd9d45476cc3f617eada8a70"
+    treehash = "sha1:814b819c183bbaa0e34e611d66302b422b74751e"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:6626afc58e12dbe332d648385f28c4eaff887c61351d03ebcfc500547f19a536"
+        tarball_hash = "sha256:3684ef051d5243a3f84ab167acffe46ede6b04ccf1ce90b0ad11dbcb831405c7"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-armv6l-linux-gnueabihf-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:2912d8bd5dec0fe08fe554696e8c811d91ee6d58"
+    treehash = "sha1:426f66914b8f5a0a2f220a6b52b3ad8e424c513b"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:f0edc45e2e4000eb1379e097dd594c723e3bd974b8a3eefb1b5c1d9fc64799f7"
+        tarball_hash = "sha256:8f625dbfb7655e238e86698b74195d34dbeb5c97652d32752111fcc820cc3198"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-armv6l-linux-gnueabihf-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
 
     [[builds.products]]
@@ -2919,14 +2919,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:e9428adb2d9456bb051ae9d89ad0755de5b6de57"
+    treehash = "sha1:3ea81973df6aaf270fda903ae160745bae5a6a17"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:f7339dc4a70ba742ab405bcf50c5c369f406494f0479b75f5619f8a52c898c62"
+        tarball_hash = "sha256:107f2906a95e88af4aabf25064b801b62d0107b11b454df683e031695ad376e3"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-armv6l-linux-gnueabihf-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -2947,17 +2947,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:0d63c875f3ec439908baeb9e8ad03289ee303cba"
+    treehash = "sha1:300d3e8a10e4ec1b2a0d30306ae5754e39812ce4"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:19a5a9a87d70b953044d67117ff3631056b4825a2660a37761b209eb8b57830b"
+        tarball_hash = "sha256:e6b24300adc258e2d07c113eb3535e065252786633c644b0a9d4ac1ac6981614"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-armv7l-linux-gnueabihf-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:297999a5d2060f97b6b7fccc5236c6d18b07c14e"
+    treehash = "sha1:e13d7f582fe9fadd2f6197b040f693cb5c9383e3"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:b73687fcb1b973bbf2418dcbc395d53a80948858241ee91a559ce22753a00d04"
+        tarball_hash = "sha256:a189e0910116aef5d8544955676a3f7d18ad3ae0bfc5a6228c723ee4d69b664d"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-armv7l-linux-gnueabihf-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
 
     [[builds.products]]
@@ -3005,14 +3005,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:0fc4f99ffdc89120a8b341b410302fa3f7920324"
+    treehash = "sha1:3537f2c9fbf296c2c5ffeb871cf07a113ce3d3fa"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:e450e5c0062b9f65e4506b82e8422bcd9f14e99f99445bae06ad367858a8e48e"
+        tarball_hash = "sha256:ac43d5edbb6239d1713bbc8fa6b237a97cb644ec3aee0d0fd4ef15e672feb489"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-armv7l-linux-gnueabihf-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -3033,17 +3033,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:7ec847eb0f107079b24eeeb27bdec80ab2def143"
+    treehash = "sha1:022c451e37e4338134adf258dccc1d925b6704ec"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:9e0ba5cb00880d8efe64ac3dd333b89764020193187b8d5867147742728706e1"
+        tarball_hash = "sha256:565c32551ba43ff5d8c900c912359ca161418f283117d716cd8861fa79ff9f72"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-powerpc64le-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:398f49358b2fd5d3274e4ae5ecb6d83620186f66"
+    treehash = "sha1:0cb3908075052647b053e05b14cbc160b2f18a81"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:4184a861e5e5bc3e308578fb95e38f29284b28b5db00bd4ee4b81c06be32c987"
+        tarball_hash = "sha256:70e6218f8885455d42cec36498058a152decac137f0fa560c31d35a75f118810"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-powerpc64le-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
 
     [[builds.products]]
@@ -3091,14 +3091,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:616922bd2a2b1d64605187f551e4714efc24347d"
+    treehash = "sha1:e087f3b0ee63d57b1d966eb8eff3e18ad6f01286"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:e1385858cfdaefa941d47d854b7031d1ae963c3183391badb6a119a3e45653d9"
+        tarball_hash = "sha256:e7486819faf9bc8fb6620f16e5d88e727baa2a840fc3e78fe83fe4eeda70a2d6"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-powerpc64le-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -3119,17 +3119,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:672ca11f12b21ca023e26aad604a81f3d63f0313"
+    treehash = "sha1:ee142c702d217f335ad38210bf52f20bf1bb239c"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:0cfbf05cbf7c4b59b41dd6216054709954a886e07178f376b988f559e150ca31"
+        tarball_hash = "sha256:60899b5af9f3fa6464d9f92514ccb6293721f75f1ca560e42e42eb535eb0f458"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-riscv64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+riscv64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:8ba34cf8fddba987f21ed7f9930915b72f4e9bd7"
+    treehash = "sha1:dfffd9af853682cb88902c342aa94e11fc994aa1"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:1cf2ca4e5b314ca36ce54efdff373e83c4fa3aca2c12999b062713100e5a813f"
+        tarball_hash = "sha256:c9b926fbb57e08117c17930e07363cdbcdd42faa1d91decc4a60c49f6840e66f"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-riscv64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+riscv64.tar.gz"
 
     [[builds.products]]
@@ -3177,14 +3177,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:e0078029be5b2fe826e2297cedae241f167a1610"
+    treehash = "sha1:8d699d05f039116b8d3a8f00dd2ba6d35ff35396"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:dd3c4b3020294f9278943a1c2be4496882c06f1642aed6349e18a7dba809c238"
+        tarball_hash = "sha256:ab77e32392dbd872b70a371cdbdb232e4ae481f1fb47303fcfef6c54a219c468"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-riscv64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+riscv64.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -3205,17 +3205,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:86008abafa9351b407cbc67b23af16565d908c94"
+    treehash = "sha1:a690850a2e3373a4ebb966562529d873e7205bdd"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:db939f864d79517db8d12df41250ae9e7db7cf083caa5ede8a752d7db65431ee"
+        tarball_hash = "sha256:96bfabc2f2485f5ce177787eb7958655d8f80428a0709def60b67e88ec490ae6"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-x86_64-linux-musl-target_libc+musl-target_os+linux-target_arch+x86_64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:3201016c5a7ea61c302f186102f4d66caa97cc2d"
+    treehash = "sha1:ebbcf0e884a4a8c57a210388cd79ed2fa72392c9"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:5ee209c99eb03b0105c3ba56f1292138839e5ac49258779bfcc7134266ba0c73"
+        tarball_hash = "sha256:ba79037a474766953e10822bac0889b4b1fcbd61b01eb8475bb97f40d29fc3fe"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-x86_64-linux-musl-target_libc+musl-target_os+linux-target_arch+x86_64.tar.gz"
 
     [[builds.products]]
@@ -3263,14 +3263,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:2e01a522b289ade8a21fe9cd90c91bd18582cbe3"
+    treehash = "sha1:5c20efae60ea3c456319eaf6636cf866684be628"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:414025103c7e4fc903aa87ea5ca2b75a840773ff5022da234f5d540dc782aac7"
+        tarball_hash = "sha256:087631644c093bf428c1e35fceba5507a432f27fdefb9756282c3427ffa1a885"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-x86_64-linux-musl-target_libc+musl-target_os+linux-target_arch+x86_64.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -3291,17 +3291,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:041db7f7a4d5ef0b88ccfa4b9f9b2202a342cdda"
+    treehash = "sha1:39f222efadec85f3579a439985547d643341401a"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:26c03fcb3ce2eeed6df7ae23722a6550367d00c107a599b64e40ffba25939600"
+        tarball_hash = "sha256:534e780e68e20d11ddcd3699c63cb19bab6a37e56bb1c6b01311229d0b4ac7b0"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-i686-linux-musl-target_libc+musl-target_os+linux-target_arch+i686.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:b567e0d6a79a2b618700665db0b999a4d766c410"
+    treehash = "sha1:f409f3edb0b02c3f033a7000d65f916dfb8e3995"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:6c76ab3032411ffa5a4b23dccb8e5d2d6f9d449a319d170e21fd31e106d49f64"
+        tarball_hash = "sha256:c1f93598bdfc24e7d6761d639bdcf1e7f58ef2689731f07993cb0cd99108c678"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-i686-linux-musl-target_libc+musl-target_os+linux-target_arch+i686.tar.gz"
 
     [[builds.products]]
@@ -3349,14 +3349,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:73a6c1a69f2a883f4aca8a12bf11ac979c6f29e2"
+    treehash = "sha1:e7746c6a761f18029f77b648e396e2454da9cf8f"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:6485798b9d21f17050ff81549ee6adde59e9bb21f8e38259bd4126874e755e1e"
+        tarball_hash = "sha256:2b8f96d216dc05ad9a55a5f7b71aac659544ca611f7a704cde13ed6d25d17f99"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-i686-linux-musl-target_libc+musl-target_os+linux-target_arch+i686.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -3377,17 +3377,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:7c3bde029914d429d2cc2a283314e5ff2b014a9c"
+    treehash = "sha1:645ad5036a3ebf7db2e2916411b27019f52861b3"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:9350d461e45af5568ccb26d7c21dd8e1fcb2b720686edadbfc72245392ad1f91"
+        tarball_hash = "sha256:87015d9c926edbc6c2a2b456b59b600dae48505612880f3f9414ca5d3d188896"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-aarch64-linux-musl-target_libc+musl-target_os+linux-target_arch+aarch64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:f29bc3ca7202648381c701922f28ee666b19f71f"
+    treehash = "sha1:962853f48ca378056f12d3c53e0581a962bf027a"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:0e64484523663c95d9567e46a1b7e474c6d16292bd1b5268e1d7dee031aed348"
+        tarball_hash = "sha256:88d91ad16f3e53afd2823101fecc609a43a662a913c7232a586fe7d57ad9f106"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-aarch64-linux-musl-target_libc+musl-target_os+linux-target_arch+aarch64.tar.gz"
 
     [[builds.products]]
@@ -3435,14 +3435,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
     treehash = "sha1:7e2b9573336f3bf80d4410abeb8167cb4196fbcc"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:8a2962f1579557372758929eb95fb80de80287af0b2c7d232f15f41f6d818918"
+        tarball_hash = "sha256:203d4bed129b09a0dd20c8186abccd1a90f27b99cfcb94d42a78fe4bf998e911"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-aarch64-linux-musl-target_libc+musl-target_os+linux-target_arch+aarch64.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -3463,17 +3463,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:a92b565e0cfcd366a417a4fe68b92952c1d0caeb"
+    treehash = "sha1:c78520632b41ccd00f9787ae8baf76e713a28974"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:e6fa95b3da9650067f20f49570e51f571cc2116af99d5feeb92e004456455c47"
+        tarball_hash = "sha256:1b3274414441bd9be79c732aed121fc76ea3db84fc990878092e7659bffb8b5f"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-armv6l-linux-musleabihf-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:935b000a2675cf6a49ac40ab74b78f2f6c355fac"
+    treehash = "sha1:f2080f6ecd980091b844bcc176d3d0b91e424d1a"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:4da826cc3221489899d144f1377eb5e38f1ef071f786f4106cbb6af1498bda80"
+        tarball_hash = "sha256:63c6519409e7237d279a11622345dd422c2d6364f7cfdaeb7e9e04ab2bfb29c3"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-armv6l-linux-musleabihf-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
 
     [[builds.products]]
@@ -3521,14 +3521,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:054d06abd7d5087037b6585358d861df6cdbc647"
+    treehash = "sha1:ff00680c3c90160b5b13c3174c0b3688929427a0"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:734f105af5267cb171983bf3a0c154dafdfc24da232eabe1265f49014e620c2d"
+        tarball_hash = "sha256:6677bdc81c41c14c704735cc3633643f47acd1a0432044e5967286638f77178e"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-armv6l-linux-musleabihf-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -3549,17 +3549,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:78f55e190d44bdf2044061e179d84a86da432a57"
+    treehash = "sha1:56c119d8e06fd982fb9fc9c069c97ab4987b0f38"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:d3ff4e31739c5ef7a296ab97df21ff6e37be7880b6b0fe0ab73f0980047c5831"
+        tarball_hash = "sha256:4a7f552565516ada84d0d4b563278d7dc91e2768f426666cd50a0d9c0db748c8"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-armv7l-linux-musleabihf-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:044d314d9b572c96195ad35d40563f5a0738adb1"
+    treehash = "sha1:4ace2cf7ac586876feda09e30f1d6a3aeca04eb9"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:8af43655881cde612fe2b4ecc5d1eac1e78272838e999ae28558d2849548731c"
+        tarball_hash = "sha256:4d5c7f979d51cf2d3401888ae48eb507cf53e7eb4939f63ddbc34038be7e1d1d"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-armv7l-linux-musleabihf-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
 
     [[builds.products]]
@@ -3607,14 +3607,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
-    treehash = "sha1:13b66e2c7c16e6a65115eb002ec535bf2cb71fe8"
+    treehash = "sha1:7769b99fdc750206cac9180d0a49b9e3385f75ee"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:fa8bc9e05d71fd433f1554cd09e1b8ee215266a3593fca01a62f15d7f19f9d84"
+        tarball_hash = "sha256:5aa4dc722e15ad16c8ce6b44da3ba787b06ee54d15ce3ab962b56563f0e10cde"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-armv7l-linux-musleabihf-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -3635,17 +3635,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:c4752186e2816dc3e8cd215279801338bead1d95"
+    treehash = "sha1:fd29a81628623a6ad149a33b0cbc2d0dd1ebc113"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:99a14d47a839718c21471d25ac3e2a784564fda770678f086548819ddb6cd1e4"
+        tarball_hash = "sha256:db05801ce7b12faaab2bdf94bf011e0717826868b91b600703b1c7302949c6c0"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-x86_64-w64-mingw32-target_os+windows-target_arch+x86_64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:9df182f2410fc000ae90f60d808c25684b13c346"
+    treehash = "sha1:f30d3b686aea583a7bb517c27cd13910c7bd7637"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:55203818dea1856c61fe7e78515f8ed985460c9411196c8bef8249a863c594db"
+        tarball_hash = "sha256:c54829d821e9644ead0f671fe891280cd0e019fc01b4d1bb7612539852541fbd"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-x86_64-w64-mingw32-target_os+windows-target_arch+x86_64.tar.gz"
 
     [[builds.products]]
@@ -3693,14 +3693,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
     treehash = "sha1:e4b81702d273b7333231d374840f05711d8b2218"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:96407b33f70dfdaac5e4ea6699e8ae9d9b58f4d8692513a8d32b1a845ec58559"
+        tarball_hash = "sha256:be3284f07558909896fe9b956050b64e4c6ea25e15a022c3442a63498f23cc04"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-x86_64-w64-mingw32-target_os+windows-target_arch+x86_64.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -3721,17 +3721,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:e219eaab2169cf5d78a87e94d188019c34aceb70"
+    treehash = "sha1:1941268c537dbc6f3ed452868f0f7d1ef01b98ac"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:ed641401bbdb8f719b6bb4480d47b47b9bc6727e36ec670792d7806242f6daeb"
+        tarball_hash = "sha256:82e01533521cb2d0930ad78691e5f682d4148fc3bff3af3ab790cb18768d601c"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-i686-w64-mingw32-target_os+windows-target_arch+i686.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:87df01bb97a6e67b80b92567e1ddea6926df1139"
+    treehash = "sha1:19edbbfb955efd1d9fb21550e2e8e6fea7a8e9c3"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:a286df830be12fba44a988e639551a1b5386f3941614506367e3fe3adf9d2902"
+        tarball_hash = "sha256:c3396d0fc0e19a71432a6bf4b0a23fd77a03761e124ce80b7d8be7eb92764c2e"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-i686-w64-mingw32-target_os+windows-target_arch+i686.tar.gz"
 
     [[builds.products]]
@@ -3779,14 +3779,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
     treehash = "sha1:e4d1658c5a53194b97c860f87fc97a4651269723"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:40a1760fb331ed8faf8e03c2def0cb265026c42707a21ebe0c87827620d64376"
+        tarball_hash = "sha256:c49f91fa66ce6614b94fb8c7aa42ac73836027fda5be8c40cd870b8e0a01efb2"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-i686-w64-mingw32-target_os+windows-target_arch+i686.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -3807,17 +3807,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:7f0f9357d8be03f3bd4c071b1d86ec7a1f469257"
+    treehash = "sha1:095bbf01173273b58c65d593774652d827a848a4"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:dc22f22044250dc7ba4af4fe3e2fa9b272812d757d4dbbba47e851694f0418fb"
+        tarball_hash = "sha256:2989ed44f8f4c429a5e147924802a8a220bf1609611f24d45184a7def7c76fd9"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-x86_64-unknown-freebsd14.1-target_os+freebsd-target_os_version+14.1.0-target_arch+x86_64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:8f35752b94e5d70068b3cf9b4ec29ba397d57308"
+    treehash = "sha1:2292d9b823fb09ee2b0e1954d3681d377fe7a06a"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:1309006371503940e5fa077fbf7ceaa9052413c1fc503fdbbf62030fecbad872"
+        tarball_hash = "sha256:24246f1d471acfb14ab925f265f76c54fc313329ed4a26ea7850f91c8da49122"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-x86_64-unknown-freebsd14.1-target_os+freebsd-target_os_version+14.1.0-target_arch+x86_64.tar.gz"
 
     [[builds.products]]
@@ -3865,14 +3865,14 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
     treehash = "sha1:bc2eea4a6b8d4cfc82dbccae231e4519c8416bf5"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:e7b85e778b4ac77d21aef929a94c89f26d7855edb0f2d0da6f680014906b3437"
+        tarball_hash = "sha256:b3de59c573aafba96e5810f9dfb57022786fcab4ddd264b1fa860f142474974d"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-x86_64-unknown-freebsd14.1-target_os+freebsd-target_os_version+14.1.0-target_arch+x86_64.tar.gz"
 [[builds]]
 name = "Binutils"
@@ -3893,17 +3893,17 @@ src_version = "2.41.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:a3f130ca1e01c84359348dc00d7d8f7d4045cd06"
+    treehash = "sha1:18155f72933a3fee5db9fef42250983eead38eb3"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:d3d0eb414a7bf6edc016b0de8b7b62e3c0012016cb312780488b1695a0061fa0"
+        tarball_hash = "sha256:5381cfd8928cad838088a0112d41fd377a3c7b4a0a099ab9009882f847e70450"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-build_log-v2.41.1-aarch64-unknown-freebsd14.1-target_os+freebsd-target_os_version+14.1.0-target_arch+aarch64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:dcb52e922d8e68518b6b5d81da2b81c894e825ec"
+    treehash = "sha1:9665d86703db1fdfa0427e06017eaf270f3eb903"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:6161907b4ec5cf850dda7bd618748d2b1f20b9caf89e20961bf1760557839d34"
+        tarball_hash = "sha256:033cda19a6d5c096d6e87700772d5a38b057378383bd92e729cf2a458dc6bdfa"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-extract_log-v2.41.1-aarch64-unknown-freebsd14.1-target_os+freebsd-target_os_version+14.1.0-target_arch+aarch64.tar.gz"
 
     [[builds.products]]
@@ -3951,12 +3951,12 @@ src_version = "2.41.0"
     treehash = "sha1:c70156bf6994f968b170ade0ee464325efb9103c"
     url = "https://ftp.wayne.edu/gnu/binutils/binutils-2.41.tar.xz"
     [[builds.sources]]
-    treehash = "sha1:516947d14ab706304c2b1e0e053f185453959d53"
-    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/Binutils/patches-v2.41.0"
+    treehash = "sha1:bb9302aeac3bc7dd04873f5edb52ba0cf47aad1c"
+    url = "/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv64-static/bootstrap/Binutils/patches-v2.41.0"
 
     [builds.artifact]
     treehash = "sha1:ef709786774d45b82da9d58f71ea412d103d0565"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:c26eaee1fb83968545582da0504e214142db88d0817286fab97660c52443db4f"
+        tarball_hash = "sha256:cee8e7f373a77dd66dbb1d0fd47baaf4c06cb977f08767bba00be45ba982471d"
         url = "https://github.com/staticfloat/Binutils_jll.jl/releases/download/Binutils-v2.41.1-GCCBootstrap-x86_64-linux-gnu/Binutils-Binutils-v2.41.1-aarch64-unknown-freebsd14.1-target_os+freebsd-target_os_version+14.1.0-target_arch+aarch64.tar.gz"
